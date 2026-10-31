@@ -10,19 +10,19 @@ Download `index.html` and open it in a modern browser. The responsive page inclu
 
 The layout adapts to phones, tablets, and desktops. The directory includes card/table views, sorting, page-size selection, page jumping, company details with all available source metadata, and filtered CSV export. Search, city/source filters, pagination, zoom, and CSV downloads work directly from the file.
 
-## Edit and rebuild
+## Repository contents
 
-Edit `index.template.html`, `styles.css`, `app.js`, or the files in `data/`, then run:
+- `index.html` — the complete responsive site, including styles, browser JavaScript, map geometry, all company records, and downloadable data.
+- `data/` — original data files, screening evidence, and methodology for inspection or reuse.
+- `.nojekyll` — tells GitHub Pages to serve these files directly.
 
-```sh
-python3 build.py
-```
+No local app, Python process, package installation, build step, or server is required. The JavaScript embedded in the HTML powers search, filters, the map, company details, and downloads; allow JavaScript in your browser.
 
-Python is only needed to rebuild the deliverable. Viewers only need `index.html`.
+## Publish and update
 
-## Publish
+GitHub Pages serves the repository's `main` branch. Push an updated `index.html` to publish changes. Share the live link above, or share `index.html` as a standalone file.
 
-Upload `index.html` to any static host, or share the file directly. No build service, package install, API key, CDN, or backend is required. The other repository files are editable sources and do not need to accompany the standalone HTML.
+The HTML contains a snapshot of the data. Editing files under `data/` alone will not update the embedded records or downloads; update the embedded `ecosystem-data` JSON in `index.html` as well. No automatic refresh is configured.
 
 ## Data and limitations
 
