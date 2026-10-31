@@ -1,3 +1,5 @@
+> Current directory: **8,632 records** after 13 additional university/research-group exclusions. Earlier collection totals below describe the preceding snapshot. See enrichment-methodology.md for current coverage.
+
 # Bay Area AI collection — current screened release
 
 Updated October 31, 2026. **8,645 retained source records across 74 Bay Area cities/localities.** This is 355 below the user’s approximate 9,000 target. San Francisco accounts for 6,534 records; the other Bay Area cities account for 2,111.
