@@ -1,5 +1,7 @@
 # SF AI Ecosystem
 
+**[Browse the live SF AI Ecosystem →](https://sv-techie.github.io/sf-ai-ecosystem/)**
+
 A portable, dependency-free web canvas for the Bay Area AI company collection: 8,645 screened source records across 74 cities. Includes a geographic map, city/source filters, full-text company search, pagination, source links, and downloadable CSVs.
 
 ## Open directly — no server required
