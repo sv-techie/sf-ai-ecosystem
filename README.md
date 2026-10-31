@@ -24,6 +24,16 @@ GitHub Pages serves the repository's `main` branch. Push an updated `index.html`
 
 The HTML contains a snapshot of the data. Editing files under `data/` alone will not update the embedded records or downloads; update the embedded `ecosystem-data` JSON in `index.html` as well. No automatic refresh is configured.
 
+## Company websites and people
+
+Company names link to source-listed official websites when established. Unknown website names stay as plain text; LinkedIn and record sources remain separately labeled.
+
+Current partial coverage: **1,526 websites**, **1,388 reported team sizes/headcount bands**, and **13 researched CEO/co-CEO records**. Use the **Profile data** filter to browse these records. Names, company websites, and CEO names are searchable. Both cards and tables show team and CEO annotations; company details include evidence URLs and observed dates.
+
+Team sizes are company-wide source snapshots, not live counts or Bay Area office staffing. LinkedIn search-filter size bands are stored separately and are not reported as employee counts. CEOs are populated only where an explicit title was checked; founder status alone is insufficient. No domains or CEO names are guessed.
+
+See [enrichment sources and definitions](data/enrichment-methodology.md) and [coverage summary](data/enrichment-summary.json). Data remains static until explicitly updated.
+
 ## Data and limitations
 
 This is a screened source collection, not a verified census of active startups. Entity matching and AI classification remain provisional. Universities, colleges, and general agencies were screened out. Twelve service-category firms have documented AI products. Points represent city centers rather than office addresses.
