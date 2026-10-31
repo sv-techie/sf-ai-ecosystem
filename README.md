@@ -2,18 +2,25 @@
 
 A portable, dependency-free web canvas for the Bay Area AI company collection: 8,645 screened source records across 74 cities. Includes a geographic map, city/source filters, full-text company search, pagination, source links, and downloadable CSVs.
 
-## Run locally
+## Open directly — no server required
+
+Download `index.html` and open it in a modern browser. The responsive page includes all styles, JavaScript, map boundaries, company records, and downloadable data. It works offline; external company links need an internet connection.
+
+The layout adapts to phones, tablets, and desktops. Search, city/source filters, pagination, zoom, and CSV downloads work directly from the file.
+
+## Edit and rebuild
+
+Edit `index.template.html`, `styles.css`, `app.js`, or the files in `data/`, then run:
 
 ```sh
-cd ~/src/sf-ai-ecosystem
-python3 -m http.server 8787 --bind 127.0.0.1
+python3 build.py
 ```
 
-Open http://127.0.0.1:8787. The page fetches JSON, so use HTTP rather than opening index.html directly.
+Python is only needed to rebuild the deliverable. Viewers only need `index.html`.
 
 ## Publish
 
-Serve this directory with any static host. No build, package install, API key, external JavaScript library, or backend is required. All map boundaries and data are included locally. Company links navigate to external source sites.
+Upload `index.html` to any static host, or share the file directly. No build service, package install, API key, CDN, or backend is required. The other repository files are editable sources and do not need to accompany the standalone HTML.
 
 ## Data and limitations
 

@@ -60,13 +60,33 @@ $('zoom-in').onclick=()=>{state.zoom=Math.min(8,state.zoom*1.5);state.transform?
 $('reset').onclick=()=>{state.zoom=1;state.x=state.y=0;state.transform?.();};
 async function start(){
   try {
-    const responses=await Promise.all(['data/companies.json','data/bay-area.geojson'].map(p=>fetch(p)));if(responses.some(r=>!r.ok))throw Error('Data unavailable');
-    [state.records,state.geo]=await Promise.all(responses.map(r=>r.json()));state.records.sort((a,b)=>a.name.localeCompare(b.name));
+    const embedded = document.getElementById('ecosystem-data');
+    if (embedded) {
+      const payload = JSON.parse(embedded.textContent);
+      state.records = payload.records; state.geo = payload.geo;
+      document.querySelectorAll('a[href^="data/"]').forEach(a => {
+        const file = payload.files[a.getAttribute('href')];
+        if (!file) return;
+        a.addEventListener('click', event => {
+          event.preventDefault();
+          const bytes = Uint8Array.from(atob(file.content), c => c.charCodeAt(0));
+          const url = URL.createObjectURL(new Blob([bytes], {type:file.type}));
+          const download = document.createElement('a');
+          download.href = url; download.download = file.name; download.click();
+          setTimeout(() => URL.revokeObjectURL(url), 60000);
+        });
+      });
+    } else {
+      const responses = await Promise.all(['data/companies.json','data/bay-area.geojson'].map(p=>fetch(p)));
+      if (responses.some(r=>!r.ok)) throw Error('Data unavailable');
+      [state.records,state.geo] = await Promise.all(responses.map(r=>r.json()));
+    }
+    state.records.sort((a,b)=>a.name.localeCompare(b.name));
     const cities=new Map();for(const r of state.records){if(!cities.has(r.city))cities.set(r.city,{name:r.city,xy:[+r.longitude,+r.latitude],count:0});cities.get(r.city).count++;}
     state.cities=[...cities.values()].sort((a,b)=>a.name.localeCompare(b.name));
     for(const c of state.cities){const o=document.createElement('option');o.value=c.name;o.textContent=`${c.name} (${c.count.toLocaleString()})`;$('city').append(o);}
     for(const source of [...new Set(state.records.map(r=>r.source))].sort()){const o=document.createElement('option');o.value=source;o.textContent=source;$('source').append(o);}
     new ResizeObserver(drawMap).observe($('map'));drawMap();
-  }catch(e){$('map').textContent='The collection could not load. Serve this folder over HTTP; see README.md.';$('result-count').textContent='Data unavailable';console.error(e);}
+  }catch(e){$('map').textContent='The collection could not load. Download a fresh copy of index.html or see README.md.';$('result-count').textContent='Data unavailable';console.error(e);}
 }
 start();
