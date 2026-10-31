@@ -1,0 +1,946 @@
+[
+  {
+    "name": "[24]7.ai",
+    "linkedin_url": "https://www.linkedin.com/company/24-7-ai/",
+    "website": "https://www.247.ai/",
+    "company_size": "10,001+",
+    "associated_members": "11763",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "6sense",
+    "linkedin_url": "https://www.linkedin.com/company/6sense/",
+    "website": "http://www.6sense.com",
+    "company_size": "1,001-5,000",
+    "associated_members": "1643",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Armada",
+    "linkedin_url": "https://www.linkedin.com/company/armadaai/",
+    "website": "https://www.armada.ai",
+    "company_size": "501-1,000",
+    "associated_members": "678",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Bright Machines",
+    "linkedin_url": "https://www.linkedin.com/company/bright-machines/",
+    "website": "http://www.brightmachines.com",
+    "company_size": "51-200",
+    "associated_members": "266",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Wispr Flow",
+    "linkedin_url": "https://www.linkedin.com/company/wisprflow/",
+    "website": "https://wisprflow.ai/",
+    "company_size": "51-200",
+    "associated_members": "170",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Starship Technologies",
+    "linkedin_url": "https://www.linkedin.com/company/starshiptechnologies/",
+    "website": "https://www.starship.xyz",
+    "company_size": "201-500",
+    "associated_members": "453",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Clarify Health Solutions",
+    "linkedin_url": "https://www.linkedin.com/company/clarify-health-solutions/",
+    "website": "https://clarifyhealth.com/",
+    "company_size": "201-500",
+    "associated_members": "127",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Imbue",
+    "linkedin_url": "https://www.linkedin.com/company/imbue-ai/",
+    "website": "https://imbue.com/",
+    "company_size": "11-50",
+    "associated_members": "80",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "PolyAI",
+    "linkedin_url": "https://www.linkedin.com/company/polyai/",
+    "website": "https://poly.ai",
+    "company_size": "201-500",
+    "associated_members": "358",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Hayden AI",
+    "linkedin_url": "https://www.linkedin.com/company/haydenaitech/",
+    "website": "http://www.hayden.ai",
+    "company_size": "51-200",
+    "associated_members": "198",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "CleverTap",
+    "linkedin_url": "https://www.linkedin.com/company/clevertap/",
+    "website": "https://clevertap.com",
+    "company_size": "501-1,000",
+    "associated_members": "643",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Tecton",
+    "linkedin_url": "https://www.linkedin.com/company/tectonai/",
+    "website": "https://tecton.ai",
+    "company_size": "51-200",
+    "associated_members": "99",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Laurel",
+    "linkedin_url": "https://www.linkedin.com/company/laurel-ai/",
+    "website": "http://laurel.ai",
+    "company_size": "51-200",
+    "associated_members": "330",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Pipefy",
+    "linkedin_url": "https://www.linkedin.com/company/pipefy/",
+    "website": "https://www.pipefy.com",
+    "company_size": "501-1,000",
+    "associated_members": "628",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Jasper",
+    "linkedin_url": "https://www.linkedin.com/company/heyjasperai/",
+    "website": "https://jasper.ai",
+    "company_size": "201-500",
+    "associated_members": "1019",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Brightseed",
+    "linkedin_url": "https://www.linkedin.com/company/brightseedinc/",
+    "website": "https://www.brightseedbio.com/",
+    "company_size": "51-200",
+    "associated_members": "35",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Forethought",
+    "linkedin_url": "https://www.linkedin.com/company/forethought-ai/",
+    "website": "http://www.forethought.ai",
+    "company_size": "51-200",
+    "associated_members": "89",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Safely You",
+    "linkedin_url": "https://www.linkedin.com/company/safelyyou/",
+    "website": "http://www.safely-you.com/",
+    "company_size": "51-200",
+    "associated_members": "201",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Built Robotics",
+    "linkedin_url": "https://www.linkedin.com/company/builtrobotics/",
+    "website": "http://www.builtrobotics.com",
+    "company_size": "11-50",
+    "associated_members": "38",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Encord",
+    "linkedin_url": "https://www.linkedin.com/company/encord-team/",
+    "website": "https://encord.com/",
+    "company_size": "201-500",
+    "associated_members": "231",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Blueshift",
+    "linkedin_url": "https://www.linkedin.com/company/blueshift-labs-inc/",
+    "website": "https://blueshift.com",
+    "company_size": "51-200",
+    "associated_members": "67",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Aktana",
+    "linkedin_url": "https://www.linkedin.com/company/aktana/",
+    "website": "http://www.aktana.com",
+    "company_size": "201-500",
+    "associated_members": "118",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Osaro",
+    "linkedin_url": "https://www.linkedin.com/company/osaroinc/",
+    "website": "http://www.osaro.com",
+    "company_size": "51-200",
+    "associated_members": "96",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Sprig",
+    "linkedin_url": "https://www.linkedin.com/company/sprig-official/",
+    "website": "https://sprig.com/",
+    "company_size": "51-200",
+    "associated_members": "261",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Gruve",
+    "linkedin_url": "https://www.linkedin.com/company/gruveai/",
+    "website": "https://www.gruve.ai",
+    "company_size": "501-1,000",
+    "associated_members": "506",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Ellipsis Health",
+    "linkedin_url": "https://www.linkedin.com/company/ellipsis-health/",
+    "website": "http://www.ellipsishealth.com",
+    "company_size": "51-200",
+    "associated_members": "107",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Bigeye",
+    "linkedin_url": "https://www.linkedin.com/company/bigeye-data/",
+    "website": "https://www.bigeye.com",
+    "company_size": "11-50",
+    "associated_members": "60",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Skycatch",
+    "linkedin_url": "https://www.linkedin.com/company/skycatch/",
+    "website": "http://www.skycatch.com",
+    "company_size": "51-200",
+    "associated_members": "29",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Directly",
+    "linkedin_url": "https://www.linkedin.com/company/directly/",
+    "website": "http://www.directly.com",
+    "company_size": "51-200",
+    "associated_members": "382",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Numerai",
+    "linkedin_url": "https://www.linkedin.com/company/numerai/",
+    "website": "https://numer.ai",
+    "company_size": "11-50",
+    "associated_members": "58",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Carta Healthcare",
+    "linkedin_url": "https://www.linkedin.com/company/cartahealthcare/",
+    "website": "https://www.carta.healthcare/",
+    "company_size": "51-200",
+    "associated_members": "133",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Lindy",
+    "linkedin_url": "https://www.linkedin.com/company/lindyai/",
+    "website": "https://www.lindy.ai/",
+    "company_size": "11-50",
+    "associated_members": "59",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Ever",
+    "linkedin_url": "https://www.linkedin.com/company/evercars/",
+    "website": "https://www.evercars.com/",
+    "company_size": "51-200",
+    "associated_members": "97",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Parallel Domain",
+    "linkedin_url": "https://www.linkedin.com/company/parallel-domain/",
+    "website": "https://www.paralleldomain.com/",
+    "company_size": "51-200",
+    "associated_members": "53",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Clerkie",
+    "linkedin_url": "https://www.linkedin.com/company/clerkie/",
+    "website": "https://www.clerkie.io",
+    "company_size": "11-50",
+    "associated_members": "34",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Magical",
+    "linkedin_url": "https://www.linkedin.com/company/getmagical/",
+    "website": "https://www.getmagical.com?utm_source=linkedin&utm_medium=company-profile",
+    "company_size": "51-200",
+    "associated_members": "135",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "NobleAI",
+    "linkedin_url": "https://www.linkedin.com/company/noble-ai/",
+    "website": "https://www.noble.ai",
+    "company_size": "11-50",
+    "associated_members": "51",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "AeroVect",
+    "linkedin_url": "https://www.linkedin.com/company/aerovect/",
+    "website": "http://aerovect.com",
+    "company_size": "51-200",
+    "associated_members": "75",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Smallest AI",
+    "linkedin_url": "https://www.linkedin.com/company/smallest/",
+    "website": "https://smallest.ai/?utm_source=linkedin&utm_medium=social&utm_campaign=brand_traffic&utm_content=homepage",
+    "company_size": "51-200",
+    "associated_members": "104",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Fireflies.ai",
+    "linkedin_url": "https://www.linkedin.com/company/fireflies-inc/",
+    "website": "https://fireflies.ai",
+    "company_size": "51-200",
+    "associated_members": "140",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "super.AI",
+    "linkedin_url": "https://www.linkedin.com/company/mysuperai/",
+    "website": "https://super.ai/",
+    "company_size": "11-50",
+    "associated_members": "44",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Simfoni",
+    "linkedin_url": "https://www.linkedin.com/company/simfoni/",
+    "website": "https://simfoni.com",
+    "company_size": "51-200",
+    "associated_members": "307",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Alloy.ai",
+    "linkedin_url": "https://www.linkedin.com/company/alloy-inc/",
+    "website": "https://alloy.ai",
+    "company_size": "51-200",
+    "associated_members": "72",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Testsigma",
+    "linkedin_url": "https://www.linkedin.com/company/testsigma/",
+    "website": "https://testsigma.com",
+    "company_size": "51-200",
+    "associated_members": "235",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Datatron",
+    "linkedin_url": "https://www.linkedin.com/company/datatron-io/",
+    "website": "https://www.datatron.com",
+    "company_size": "11-50",
+    "associated_members": "14",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Breinify",
+    "linkedin_url": "https://www.linkedin.com/company/breinify/",
+    "website": "https://www.breinify.ai/",
+    "company_size": "11-50",
+    "associated_members": "14",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Fligoo",
+    "linkedin_url": "https://www.linkedin.com/company/fligoo/",
+    "website": "https://fligoo.com",
+    "company_size": "51-200",
+    "associated_members": "131",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Gladly",
+    "linkedin_url": "https://www.linkedin.com/company/gladly-inc/",
+    "website": "https://www.gladly.ai/get-started/",
+    "company_size": "201-500",
+    "associated_members": "213",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Daybreak",
+    "linkedin_url": "https://www.linkedin.com/company/daybreak-ai/",
+    "website": "https://www.daybreak.ai",
+    "company_size": "11-50",
+    "associated_members": "180",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Krikey AI",
+    "linkedin_url": "https://www.linkedin.com/company/krikey/",
+    "website": "https://www.krikey.ai/?utm_source=linkedin&utm_medium=social",
+    "company_size": "11-50",
+    "associated_members": "23",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "HTEC",
+    "linkedin_url": "https://www.linkedin.com/company/htecgroup/",
+    "website": "https://htec.com",
+    "company_size": "1,001-5,000",
+    "associated_members": "2590",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Sully.ai",
+    "linkedin_url": "https://www.linkedin.com/company/sully-ai/",
+    "website": "https://www.sully.ai/",
+    "company_size": "51-200",
+    "associated_members": "71",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Verita AI",
+    "linkedin_url": "https://www.linkedin.com/company/verita-ai/",
+    "website": "https://www.verita-ai.com/",
+    "company_size": "2-10",
+    "associated_members": "63",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Artificial Intelligence for Wireless Networking",
+    "linkedin_url": "https://www.linkedin.com/company/artificial-intelligence-for-wireless-networking/",
+    "website": "https://thetechfool.com/ai4wifi",
+    "company_size": "2-10",
+    "associated_members": "",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Intel",
+    "linkedin_url": "https://www.linkedin.com/company/intel-corporation/",
+    "website": "http://www.intel.com",
+    "company_size": "10,001+",
+    "associated_members": "109705",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Cisco",
+    "linkedin_url": "https://www.linkedin.com/company/cisco/",
+    "website": "http://www.cisco.com",
+    "company_size": "10,001+",
+    "associated_members": "95313",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Google",
+    "linkedin_url": "https://www.linkedin.com/company/google/",
+    "website": "https://goo.gle/3DLEokh",
+    "company_size": "10,001+",
+    "associated_members": "330429",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "NVIDIA",
+    "linkedin_url": "https://www.linkedin.com/company/nvidia/",
+    "website": "http://www.nvidia.com",
+    "company_size": "10,001+",
+    "associated_members": "52809",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Cloudera",
+    "linkedin_url": "https://www.linkedin.com/company/cloudera/",
+    "website": "https://www.cloudera.com",
+    "company_size": "1,001-5,000",
+    "associated_members": "3533",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Fortinet",
+    "linkedin_url": "https://www.linkedin.com/company/fortinet/",
+    "website": "https://www.fortinet.com",
+    "company_size": "10,001+",
+    "associated_members": "16738",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "AMD",
+    "linkedin_url": "https://www.linkedin.com/company/amd/",
+    "website": "http://www.amd.com",
+    "company_size": "10,001+",
+    "associated_members": "51742",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Palo Alto Networks",
+    "linkedin_url": "https://www.linkedin.com/company/palo-alto-networks/",
+    "website": "http://www.paloaltonetworks.com",
+    "company_size": "10,001+",
+    "associated_members": "23805",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Zendesk",
+    "linkedin_url": "https://www.linkedin.com/company/zendesk/",
+    "website": "http://zdsk.co/46mVi8h",
+    "company_size": "5,001-10,000",
+    "associated_members": "7693",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Curai Health",
+    "linkedin_url": "https://www.linkedin.com/company/curai/",
+    "website": "https://curaihealth.com",
+    "company_size": "51-200",
+    "associated_members": "106",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "ClimateAI",
+    "linkedin_url": "https://www.linkedin.com/company/climateai/",
+    "website": "http://climate.ai/",
+    "company_size": "51-200",
+    "associated_members": "28",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "CAMB.AI",
+    "linkedin_url": "https://www.linkedin.com/company/cambhq/",
+    "website": "https://www.camb.ai",
+    "company_size": "11-50",
+    "associated_members": "75",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "test.ai",
+    "linkedin_url": "https://www.linkedin.com/company/test.ai/",
+    "website": "http://www.test.ai",
+    "company_size": "11-50",
+    "associated_members": "18",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Akia",
+    "linkedin_url": "https://www.linkedin.com/company/ahoyakia/",
+    "website": "https://www.akia.com/",
+    "company_size": "11-50",
+    "associated_members": "49",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Alta",
+    "linkedin_url": "https://www.linkedin.com/company/altadaily/",
+    "website": "https://altadaily.com/invite/linkedin",
+    "company_size": "2-10",
+    "associated_members": "54",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Uare.ai",
+    "linkedin_url": "https://www.linkedin.com/company/uareai/",
+    "website": "https://uare.ai/",
+    "company_size": "11-50",
+    "associated_members": "26",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Letta",
+    "linkedin_url": "https://www.linkedin.com/company/letta-ai/",
+    "website": "https://letta.com",
+    "company_size": "11-50",
+    "associated_members": "17",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Medsien",
+    "linkedin_url": "https://www.linkedin.com/company/medsien/",
+    "website": "https://www.medsien.com/",
+    "company_size": "51-200",
+    "associated_members": "136",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Martian",
+    "linkedin_url": "https://www.linkedin.com/company/withmartian/",
+    "website": "https://withmartian.com",
+    "company_size": "11-50",
+    "associated_members": "31",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Bagel Labs",
+    "linkedin_url": "https://www.linkedin.com/company/bageldotcom/",
+    "website": "https://www.bagel.com",
+    "company_size": "2-10",
+    "associated_members": "17",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Naptha AI",
+    "linkedin_url": "https://www.linkedin.com/company/napthaai/",
+    "website": "https:// https://naptha.ai ",
+    "company_size": "11-50",
+    "associated_members": "6",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Juma",
+    "linkedin_url": "https://www.linkedin.com/company/jumaai/",
+    "website": "https:// https://juma.ai ",
+    "company_size": "11-50",
+    "associated_members": "24",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Atypical AI",
+    "linkedin_url": "https://www.linkedin.com/company/atypical-ai/",
+    "website": "https://www.atypicalai.com/",
+    "company_size": "2-10",
+    "associated_members": "19",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Nextnet",
+    "linkedin_url": "https://www.linkedin.com/company/getnextnet/",
+    "website": "https://getnextnet.com/",
+    "company_size": "11-50",
+    "associated_members": "30",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Future AGI",
+    "linkedin_url": "https://www.linkedin.com/company/futureagi/",
+    "website": "https://www.futureagi.com",
+    "company_size": "11-50",
+    "associated_members": "",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Womp",
+    "linkedin_url": "https://www.linkedin.com/company/womp3d/",
+    "website": "https://Womp.com",
+    "company_size": "11-50",
+    "associated_members": "63",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "KushoAI",
+    "linkedin_url": "https://www.linkedin.com/company/kusho/",
+    "website": "https://www.kusho.ai",
+    "company_size": "11-50",
+    "associated_members": "9",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "The Forecasting Company",
+    "linkedin_url": "https://www.linkedin.com/company/the-forecasting-company/",
+    "website": "https://www.theforecastingcompany.com",
+    "company_size": "2-10",
+    "associated_members": "12",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Surge AI",
+    "linkedin_url": "https://www.linkedin.com/company/surge-ai/",
+    "website": "https://www.surgehq.ai",
+    "company_size": "51-200",
+    "associated_members": "553",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "MarkovML",
+    "linkedin_url": "https://www.linkedin.com/company/markov-ml/",
+    "website": "",
+    "company_size": "2-10",
+    "associated_members": "6",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Rivi",
+    "linkedin_url": "https://www.linkedin.com/company/rivico/",
+    "website": "https://rivi.ai/",
+    "company_size": "11-50",
+    "associated_members": "81",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Sirona Medical",
+    "linkedin_url": "https://www.linkedin.com/company/sironamedical/",
+    "website": "http://www.sironamedical.com",
+    "company_size": "51-200",
+    "associated_members": "114",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Bifrost AI",
+    "linkedin_url": "https://www.linkedin.com/company/bifrost-ai/",
+    "website": "http://bifrost.ai",
+    "company_size": "11-50",
+    "associated_members": "44",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Robylon AI",
+    "linkedin_url": "https://www.linkedin.com/company/robylonai/",
+    "website": "https:// https://www.robylon.ai ",
+    "company_size": "51-200",
+    "associated_members": "16",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Aira Security",
+    "linkedin_url": "https://www.linkedin.com/company/aira-security/",
+    "website": "https://airasecurity.ai",
+    "company_size": "2-10",
+    "associated_members": "6",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Friendly",
+    "linkedin_url": "https://www.linkedin.com/company/friendly-health-technologies/",
+    "website": "http://www.friendlycares.com/",
+    "company_size": "11-50",
+    "associated_members": "45",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "MaxIQ",
+    "linkedin_url": "https://www.linkedin.com/company/getmaxiq/",
+    "website": "https://getmaxiq.link/linkedin",
+    "company_size": "11-50",
+    "associated_members": "53",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Hedra",
+    "linkedin_url": "https://www.linkedin.com/company/hedra-labs/",
+    "website": "http://www.hedra.com",
+    "company_size": "11-50",
+    "associated_members": "46",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Windfall",
+    "linkedin_url": "https://www.linkedin.com/company/windfall-data/",
+    "website": "http://www.windfall.com",
+    "company_size": "51-200",
+    "associated_members": "89",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "LightSource",
+    "linkedin_url": "https://www.linkedin.com/company/lightsource-ai/",
+    "website": "http://www.lightsource.ai",
+    "company_size": "201-500",
+    "associated_members": "60",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Artificial Intelligence for Credit Unions",
+    "linkedin_url": "https://www.linkedin.com/showcase/ai-for-credit-unions/",
+    "website": "https:// https://neuton.ai/cu ",
+    "company_size": "11-50",
+    "associated_members": "",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Meta",
+    "linkedin_url": "https://www.linkedin.com/company/meta/",
+    "website": "https://www.metacareers.com/",
+    "company_size": "10,001+",
+    "associated_members": "165736",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Robust Intelligence (now part of Cisco)",
+    "linkedin_url": "https://www.linkedin.com/company/robust-intelligence/",
+    "website": "https://www.robustintelligence.com",
+    "company_size": "51-200",
+    "associated_members": "29",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Eightfold AI",
+    "linkedin_url": "https://www.linkedin.com/company/eightfoldai/",
+    "website": "https://eightfold.ai",
+    "company_size": "501-1,000",
+    "associated_members": "897",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Scry AI",
+    "linkedin_url": "https://www.linkedin.com/company/scryai/",
+    "website": "https://scryai.com/?utm_source=social&utm_medium=socialmedia&utm_campaign=smm",
+    "company_size": "201-500",
+    "associated_members": "285",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Quartic",
+    "linkedin_url": "https://www.linkedin.com/company/quartic-ai/",
+    "website": "https://www.quartic.ai/",
+    "company_size": "51-200",
+    "associated_members": "70",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "DeepLearning.AI",
+    "linkedin_url": "https://www.linkedin.com/company/deeplearningai/",
+    "website": "http://DeepLearning.AI",
+    "company_size": "11-50",
+    "associated_members": "657",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "BrightEdge",
+    "linkedin_url": "https://www.linkedin.com/company/brightedge/",
+    "website": "https://www.brightedge.com",
+    "company_size": "501-1,000",
+    "associated_members": "657",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Turnitin",
+    "linkedin_url": "https://www.linkedin.com/company/turnitin/",
+    "website": "http://www.turnitin.com",
+    "company_size": "501-1,000",
+    "associated_members": "991",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Reltio",
+    "linkedin_url": "https://www.linkedin.com/company/reltio-inc/",
+    "website": "https://www.reltio.com/",
+    "company_size": "201-500",
+    "associated_members": "708",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Saama",
+    "linkedin_url": "https://www.linkedin.com/company/saama-technologies/",
+    "website": "https://www.saama.com",
+    "company_size": "1,001-5,000",
+    "associated_members": "1895",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "AI Central | ChatGPT & Generative AI Tutorials, Prompts & Use Cases for Gemini, DeepSeek, Claude",
+    "linkedin_url": "https://www.linkedin.com/company/chat-gpt-central/",
+    "website": "https://cntral.ai/welcome",
+    "company_size": "2-10",
+    "associated_members": "",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Applied Intuition",
+    "linkedin_url": "https://www.linkedin.com/company/applied-intuition-inc/",
+    "website": "https://www.appliedintuition.com",
+    "company_size": "1,001-5,000",
+    "associated_members": "1675",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Google for Startups",
+    "linkedin_url": "https://www.linkedin.com/company/google-for-startups/",
+    "website": "https://startup.google.com/programs/directory/?utm_source=gfs&utm_medium=social&utm_campaign=program_directory",
+    "company_size": "10,001+",
+    "associated_members": "1383",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "ValGenesis",
+    "linkedin_url": "https://www.linkedin.com/company/valgenesis-inc/",
+    "website": "https://www.valgenesis.com",
+    "company_size": "501-1,000",
+    "associated_members": "674",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Mappa",
+    "linkedin_url": "https://www.linkedin.com/company/mappa-ai/",
+    "website": "http://www.mappa.ai",
+    "company_size": "11-50",
+    "associated_members": "159",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "ThoughtSpot",
+    "linkedin_url": "https://www.linkedin.com/company/thoughtspot/",
+    "website": "https://www.thoughtspot.com/",
+    "company_size": "501-1,000",
+    "associated_members": "1796",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Groq",
+    "linkedin_url": "https://www.linkedin.com/company/groq/",
+    "website": "https://groq.com/",
+    "company_size": "51-200",
+    "associated_members": "313",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Yellow.ai",
+    "linkedin_url": "https://www.linkedin.com/company/yellowdotai/",
+    "website": "https://yellow.ai/",
+    "company_size": "1,001-5,000",
+    "associated_members": "870",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Folio3 Software",
+    "linkedin_url": "https://www.linkedin.com/company/folio3/",
+    "website": "https://www.folio3.com",
+    "company_size": "501-1,000",
+    "associated_members": "844",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Amelia",
+    "linkedin_url": "https://www.linkedin.com/company/ameliaai/",
+    "website": "https://www.soundhound.com/",
+    "company_size": "1,001-5,000",
+    "associated_members": "325",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Inflection AI",
+    "linkedin_url": "https://www.linkedin.com/company/inflectionai/",
+    "website": "https://inflection.ai",
+    "company_size": "51-200",
+    "associated_members": "86",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "Leena AI",
+    "linkedin_url": "https://www.linkedin.com/company/leena-ai/",
+    "website": "https://leena.ai/",
+    "company_size": "201-500",
+    "associated_members": "327",
+    "observed_at": "2026-10-31"
+  },
+  {
+    "name": "SymphonyAI",
+    "linkedin_url": "https://www.linkedin.com/company/symphonyai/",
+    "website": "http://www.symphonyai.com",
+    "company_size": "1,001-5,000",
+    "associated_members": "",
+    "observed_at": "2026-10-31"
+  }
+]
