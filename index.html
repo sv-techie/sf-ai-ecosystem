@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore 8,645 screened AI company records across 74 Bay Area cities, with source links and downloadable data.">
+  <title>SF AI Ecosystem — Bay Area Explorer</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="masthead"><a class="brand" href="./"><span class="brand-icon">↗</span> SF AI ECOSYSTEM</a><nav aria-label="Resources"><a href="data/companies.csv" download>Download data ↗</a><a href="data/methodology.md">Methodology ↗</a></nav></header>
+  <main>
+    <div class="intro"><div><div class="eyebrow">THE BAY AREA / AI COMPANY EXPLORER</div><h1>An ecosystem,<br>in perspective.</h1><p>Explore the companies shaping AI across the Bay Area.<br>Choose a city on the map, or search the collection below.</p></div><div class="stats"><div><strong>8,645</strong><span>screened records</span></div><div><strong>74</strong><span>Bay Area cities</span></div><small>Collection updated October 31, 2026</small></div></div>
+    <section class="map-panel" aria-labelledby="map-heading"><div class="panel-heading"><h2 id="map-heading">Across the Bay</h2><span>City-level locations</span></div><div id="map" class="map"><p class="loading">Loading map…</p></div><div class="map-footer"><span>Bubble size represents collected records. Locations are city centers, not office addresses.</span><div class="zoom-controls"><button id="zoom-in" aria-label="Zoom in">+</button><button id="zoom-out" aria-label="Zoom out">−</button><button id="reset">Reset view</button></div></div></section>
+    <section class="directory" aria-labelledby="directory-heading"><div class="directory-heading"><div class="eyebrow">EXPLORE THE COLLECTION</div><h2 id="directory-heading">Company directory</h2></div><div class="filters"><label class="search-label">Search companies<input id="search" type="search" placeholder="Company name or AI specialty…"></label><label>City<select id="city"><option value="">All Bay Area</option></select></label><label>Source<select id="source"><option value="">All sources</option></select></label><button id="clear">Clear filters</button></div><div class="results-meta"><span id="result-count" role="status" aria-live="polite">Loading records…</span><span>Source records · identity matching provisional</span></div><div id="companies" class="company-grid"></div><div class="pagination"><button id="previous">← Previous</button><span id="page" aria-live="polite"></span><button id="next">Next →</button></div></section>
+    <aside class="scope"><div><h3>What’s included</h3><p>AI-related company records from LinkedIn, FundingWatcher, the YC directory via yc-oss, and SF Tech Map. Universities, colleges, and general agencies were screened out; service firms remain where clear AI-product evidence was established.</p></div><div><h3>A collection, still being refined</h3><p>This is not a verified census of active startups. Records may include acquired or established companies, uncertain classifications, and unresolved entity matches.</p><a href="data/methodology.md">Read the methodology ↗</a> · <a href="data/excluded-records.csv" download>299 exclusions ↗</a> · <a href="data/product-exceptions.csv" download>12 product exceptions ↗</a></div></aside>
+  </main>
+  <footer><span>SF AI ECOSYSTEM · OCTOBER 2026</span><span>Data: FundingWatcher & SF Tech Map (CC BY 4.0), LinkedIn, YC via yc-oss.<br>Map: US Census / us-atlas · City coordinates: GeoNames.</span></footer>
+</body>
+</html>
