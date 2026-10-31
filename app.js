@@ -5,13 +5,26 @@ const NS = 'http://www.w3.org/2000/svg';
 function element(tag, attrs = {}) { const e = document.createElementNS(NS, tag); for (const [k,v] of Object.entries(attrs)) e.setAttribute(k,v); return e; }
 function safeURL(value) { try { const u = new URL(value); return ['https:','http:'].includes(u.protocol) ? u.href : ''; } catch { return ''; } }
 function link(label, href) { const a = document.createElement('a'); a.textContent = label; a.href = safeURL(href); a.target = '_blank'; a.rel = 'noopener noreferrer'; return a; }
-function filtered() { const q = $('search').value.trim().toLocaleLowerCase(); return state.records.filter(r => (!$('city').value || r.city === $('city').value) && (!$('source').value || r.source === $('source').value) && (!q || [r.name,r.industry,r.product_evidence].join(' ').toLocaleLowerCase().includes(q))); }
+function filtered() { const q = $('search').value.trim().toLocaleLowerCase(); return state.records.filter(r => (!$('city').value || r.city === $('city').value) && (!$('source').value || r.source === $('source').value) && (!q || [r.name,r.city,r.industry,r.product_evidence].join(' ').toLocaleLowerCase().includes(q))); }
 function render() {
-  const rows = filtered(), pages = Math.max(1,Math.ceil(rows.length/state.size)); state.page = Math.max(0,Math.min(state.page,pages-1));
+  const rows = filtered().sort((a,b) => { const key = $('sort').value; return key === 'name-desc' ? b.name.localeCompare(a.name) : (a[key] || '').localeCompare(b[key] || '') || a.name.localeCompare(b.name); }), pages = Math.max(1,Math.ceil(rows.length/state.size)); state.page = Math.max(0,Math.min(state.page,pages-1));
   $('result-count').textContent = `${rows.length.toLocaleString()} records · ${$('city').value || 'All Bay Area'}`;
+  $('page-number').max = pages; $('page-number').value = state.page+1;
   $('page').textContent = `${state.page+1} / ${pages}`; $('previous').disabled = state.page === 0; $('next').disabled = state.page+1 >= pages;
-  const grid = $('companies'); grid.replaceChildren();
+  const grid = $('companies'); grid.replaceChildren(); grid.classList.toggle('table-view', $('view').value === 'table');
+  let tbody;
+  if ($('view').value === 'table') {
+    const table = document.createElement('table'); const caption = document.createElement('caption'); caption.textContent = 'Company directory results'; table.append(caption);
+    const head = document.createElement('thead'), tr = document.createElement('tr');
+    for (const label of ['Company','City','Industry / classification','Source','Details']) {const th=document.createElement('th');th.scope='col';th.textContent=label;tr.append(th);}
+    head.append(tr);tbody=document.createElement('tbody');table.append(head,tbody);grid.append(table);
+  }
   for (const r of rows.slice(state.page*state.size,(state.page+1)*state.size)) {
+    if (tbody) {
+      const tr=document.createElement('tr');
+      for (const value of [r.name,r.city,r.industry,r.source]) { const td=document.createElement('td');td.textContent=value || 'Not available';tr.append(td); }
+      const td=document.createElement('td');const b=document.createElement('button');b.textContent='View details';b.onclick=()=>showDetails(r);td.append(b);tr.append(td);tbody.append(tr);continue;
+    }
     const card = document.createElement('article'); card.className = 'company';
     const city = document.createElement('span'); city.className = 'city'; city.textContent = r.city;
     const title = document.createElement('h3'); title.append(link(r.name,r.linkedin_url || r.website || r.source_url));
@@ -19,11 +32,33 @@ function render() {
     const source = document.createElement('div'); source.className = 'source'; const sourceName = document.createElement('span'); sourceName.textContent = r.source; source.append(sourceName,link('View source ↗',r.source_url));
     card.append(city,title,desc);
     if (r.product_evidence) { const proof = document.createElement('div'); proof.className = 'product'; proof.append(link('AI product: '+r.product_evidence,r.product_evidence_url)); card.append(proof); }
-    card.append(source); grid.append(card);
+    card.append(source); const details=document.createElement('button');details.className='details-button';details.textContent='View company details';details.onclick=()=>showDetails(r);card.append(details); grid.append(card);
   }
   if (!rows.length) { const empty = document.createElement('p'); empty.className = 'empty'; empty.textContent = 'No matches. Try another search or clear the filters.'; grid.append(empty); }
   document.querySelectorAll('.dot').forEach(dot => { const chosen = dot.dataset.city === $('city').value; dot.classList.toggle('selected',chosen); dot.setAttribute('aria-pressed',chosen); });
 }
+function showDetails(r) {
+  $('detail-title').textContent = r.name; $('detail-fields').replaceChildren();
+  const fields = {city:'City',industry:'Industry / source classification',source:'Source',founded:'Founded',status:'Status',funding_usd:'Funding reported (USD)',last_round_type:'Last round type',last_round_date:'Last round date',snapshot_date:'Source snapshot',screening_status:'Screening notes',matching_evidence:'Matching notes',product_evidence:'Product evidence',website:'Website',linkedin_url:'LinkedIn',source_url:'Source record',product_evidence_url:'Product evidence source'};
+  for (const [key,label] of Object.entries(fields)) {
+    if (!r[key]) continue;
+    const dt=document.createElement('dt'),dd=document.createElement('dd');dt.textContent=label;
+    if (['website','linkedin_url','source_url','product_evidence_url'].includes(key) && safeURL(r[key])) dd.append(link(r[key],r[key])); else dd.textContent=r[key];
+    $('detail-fields').append(dt,dd);
+  }
+  $('company-detail').showModal();
+}
+$('close-detail').onclick=()=>$('company-detail').close();
+for (const id of ['sort','view','page-size']) $(id).onchange=()=>{state.size=+$('page-size').value;state.page=0;render();};
+function goToPage(){state.page=Math.max(0,(+$('page-number').value||1)-1);render();}
+$('go-page').onclick=goToPage;
+$('page-number').onkeydown=e=>{if(e.key==='Enter')goToPage();};
+$('export').onclick=()=>{
+  const rows=filtered(); const fields=Object.keys(state.records[0] || {});
+  const quote=v=>'"'+String(v ?? '').replaceAll('"','""')+'"';
+  const csv=[fields.map(quote).join(','),...rows.map(r=>fields.map(k=>quote(/^[=+@\t\r-]/.test(String(r[k]||'')) ? "'"+r[k] : r[k])).join(','))].join('\r\n');
+  const url=URL.createObjectURL(new Blob(['\ufeff'+csv],{type:'text/csv;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download='filtered-ai-companies.csv';a.click();setTimeout(()=>URL.revokeObjectURL(url),60000);
+};
 const mercator = ([lng,lat]) => [lng*Math.PI/180,-Math.log(Math.tan(Math.PI/4+lat*Math.PI/360))];
 function drawMap() {
   if (!state.geo) return;
@@ -40,7 +75,7 @@ function drawMap() {
     const [cx,cy]=project(c.xy),r=Math.min(27,4+Math.sqrt(c.count)*.9);
     const dot=element('circle',{cx,cy,r,class:'dot',tabindex:0,role:'button','aria-label':`${c.name}: ${c.count} records`,'data-city':c.name,'aria-pressed':c.name===$('city').value});
     const title=element('title'); title.textContent=`${c.name}: ${c.count.toLocaleString()} records`; dot.append(title);
-    function choose(){ $('city').value=c.name;state.page=0;render(); }
+    function choose(){ $('city').value=c.name;state.page=0;render();location.hash='directory'; }
     dot.addEventListener('click',e=>{e.stopPropagation();choose();}); dot.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();choose();}});group.append(dot);
     if (['San Francisco','San Jose','Oakland','Palo Alto','Santa Rosa','Napa','Livermore'].includes(c.name)) {const label=element('text',{x:cx,y:cy-r-5,'text-anchor':'middle'});label.textContent=c.name;group.append(label);}
   }

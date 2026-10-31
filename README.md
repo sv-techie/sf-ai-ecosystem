@@ -1,6 +1,6 @@
 # SF AI Ecosystem
 
-**[Browse the live SF AI Ecosystem →](https://sv-techie.github.io/sf-ai-ecosystem/)**
+**[Browse the company directory →](https://sv-techie.github.io/sf-ai-ecosystem/#directory)** · [Explore the map](https://sv-techie.github.io/sf-ai-ecosystem/#map-section)
 
 A portable, dependency-free web canvas for the Bay Area AI company collection: 8,645 screened source records across 74 cities. Includes a geographic map, city/source filters, full-text company search, pagination, source links, and downloadable CSVs.
 
@@ -8,7 +8,7 @@ A portable, dependency-free web canvas for the Bay Area AI company collection: 8
 
 Download `index.html` and open it in a modern browser. The responsive page includes all styles, JavaScript, map boundaries, company records, and downloadable data. It works offline; external company links need an internet connection.
 
-The layout adapts to phones, tablets, and desktops. Search, city/source filters, pagination, zoom, and CSV downloads work directly from the file.
+The layout adapts to phones, tablets, and desktops. The directory includes card/table views, sorting, page-size selection, page jumping, company details with all available source metadata, and filtered CSV export. Search, city/source filters, pagination, zoom, and CSV downloads work directly from the file.
 
 ## Edit and rebuild
 
