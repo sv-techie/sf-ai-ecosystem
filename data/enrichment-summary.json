@@ -1,14 +1,18 @@
 {
   "records": 8632,
-  "official_websites": 2685,
-  "team_size_or_band": 2554,
+  "official_websites": 2686,
+  "team_size_or_band": 2563,
   "linkedin_search_size_bands": 3488,
-  "ceo_records": 62,
-  "linkedin_profiles_reviewed": 1182,
-  "linkedin_associated_member_counts": 1016,
+  "ceo_records": 70,
+  "linkedin_profiles_reviewed": 1199,
+  "linkedin_associated_member_counts": 1033,
   "observed_at": "2026-10-31",
   "missing_website_profiles_attempted": 3914,
   "public_profile_fields_added": 1063,
   "signed_in_about_people_reviews": 29,
-  "ceo_linkedin_profiles": 18
+  "ceo_linkedin_profiles": 32,
+  "founder_records": 23,
+  "linkedin_about_size_records": 72,
+  "resumed_checkpoint_companies": 50,
+  "requested_fields_complete": 59
 }

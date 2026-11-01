@@ -1,0 +1,1243 @@
+[
+  {
+    "id": "a54739f4ecc8728a",
+    "name": "OpenAI",
+    "display_name": "OpenAI ",
+    "associated_members": "11489",
+    "company_size": "1,001-5,000",
+    "founded": "",
+    "headquarters": "San Francisco, CA",
+    "website": "https://openai.com/",
+    "about_url": "https://www.linkedin.com/company/openai/about/",
+    "observed_at": "2026-11-01T03:31:32.736Z",
+    "people_url": "https://www.linkedin.com/company/openai/people/?keywords=founder",
+    "accepted_leadership": [],
+    "accepted_founders": [],
+    "company_owned_source": {}
+  },
+  {
+    "id": "4f75dc5f00cc3bf2",
+    "name": "Databricks",
+    "display_name": "Databricks ",
+    "associated_members": "14167",
+    "company_size": "10,001+",
+    "founded": "",
+    "headquarters": "San Francisco, CA",
+    "website": "https://databricks.com/",
+    "about_url": "https://www.linkedin.com/company/databricks/about/",
+    "observed_at": "2026-11-01T03:31:38.422Z",
+    "people_url": "https://www.linkedin.com/company/databricks/people/?keywords=founder",
+    "accepted_leadership": [
+      {
+        "name": "Andy Konwinski",
+        "profile_url": "https://www.linkedin.com/in/andykon",
+        "role": "Co-founder of Laude, Databricks, and Perplexity"
+      }
+    ],
+    "accepted_founders": [
+      {
+        "name": "Andy Konwinski",
+        "role": "Co-founder of Laude, Databricks, and Perplexity",
+        "source": "https://www.linkedin.com/in/andykon"
+      }
+    ],
+    "company_owned_source": {}
+  },
+  {
+    "id": "65a67e93861ac3af",
+    "name": "Baseten",
+    "display_name": "Baseten ",
+    "associated_members": "487",
+    "company_size": "201-500",
+    "founded": "",
+    "headquarters": "San Francisco, CA",
+    "website": "https://www.baseten.co/",
+    "about_url": "https://www.linkedin.com/company/baseten/about/",
+    "observed_at": "2026-11-01T03:31:44.304Z",
+    "people_url": "https://www.linkedin.com/company/baseten/people/?keywords=founder",
+    "accepted_leadership": [
+      {
+        "name": "Pankaj G.",
+        "profile_url": "https://www.linkedin.com/in/pankajcraft",
+        "role": "Co-founder at Baseten"
+      },
+      {
+        "name": "Amir Haghighat",
+        "profile_url": "https://www.linkedin.com/in/amirhaghighat",
+        "role": "Co-founder at Baseten"
+      }
+    ],
+    "accepted_founders": [
+      {
+        "name": "Pankaj G.",
+        "role": "Co-founder at Baseten",
+        "source": "https://www.linkedin.com/in/pankajcraft"
+      },
+      {
+        "name": "Amir Haghighat",
+        "role": "Co-founder at Baseten",
+        "source": "https://www.linkedin.com/in/amirhaghighat"
+      }
+    ],
+    "company_owned_source": {}
+  },
+  {
+    "id": "fa2ff98ac2b65489",
+    "name": "Together AI",
+    "display_name": "Together AI ",
+    "associated_members": "445",
+    "company_size": "201-500",
+    "founded": "2022",
+    "headquarters": "San Francisco, California",
+    "website": "https://together.ai/",
+    "about_url": "https://www.linkedin.com/company/togethercomputer/about/",
+    "observed_at": "2026-11-01T03:31:49.547Z",
+    "people_url": "https://www.linkedin.com/company/togethercomputer/people/?keywords=founder",
+    "accepted_leadership": [
+      {
+        "name": "Vipul Ved Prakash",
+        "profile_url": "https://www.linkedin.com/in/vipulved",
+        "role": "Co-founder & CEO Together AI"
+      }
+    ],
+    "accepted_founders": [
+      {
+        "name": "Vipul Ved Prakash",
+        "role": "Co-founder & CEO Together AI",
+        "source": "https://www.linkedin.com/in/vipulved"
+      }
+    ],
+    "company_owned_source": {}
+  },
+  {
+    "id": "fa8d4d0818619ec2",
+    "name": "6sense",
+    "display_name": "6sense ",
+    "associated_members": "1643",
+    "company_size": "1,001-5,000",
+    "founded": "2013",
+    "headquarters": "San Francisco, California",
+    "website": "http://www.6sense.com/",
+    "about_url": "https://www.linkedin.com/company/6sense/about/",
+    "observed_at": "2026-11-01T03:32:13.290Z",
+    "people_url": "https://www.linkedin.com/company/6sense/people/?keywords=founder",
+    "accepted_leadership": [],
+    "accepted_founders": [],
+    "company_owned_source": {}
+  },
+  {
+    "id": "d7fd11a3bfd879b3",
+    "name": "Armada",
+    "display_name": "Armada ",
+    "associated_members": "678",
+    "company_size": "501-1,000",
+    "founded": "2022",
+    "headquarters": "San Francisco, California",
+    "website": "https://www.armada.ai/",
+    "about_url": "https://www.linkedin.com/company/armadaai/about/",
+    "observed_at": "2026-11-01T03:32:18.465Z",
+    "people_url": "https://www.linkedin.com/company/armadaai/people/?keywords=founder",
+    "accepted_leadership": [
+      {
+        "name": "Pradeep Nair",
+        "profile_url": "https://www.linkedin.com/in/pradeepnair83",
+        "role": "Founder CTO @ Armada (Ex-Microsoft Azure)"
+      },
+      {
+        "name": "Jon Runyan",
+        "profile_url": "https://www.linkedin.com/in/jon-runyan-3868a6",
+        "role": "Co-Founder and COO at Armada"
+      },
+      {
+        "name": "Dan Wright",
+        "profile_url": "https://www.linkedin.com/in/wrightdh",
+        "role": "Co-Founder and CEO at Armada"
+      }
+    ],
+    "accepted_founders": [
+      {
+        "name": "Pradeep Nair",
+        "role": "Founder CTO @ Armada (Ex-Microsoft Azure)",
+        "source": "https://www.linkedin.com/in/pradeepnair83"
+      },
+      {
+        "name": "Jon Runyan",
+        "role": "Co-Founder and COO at Armada",
+        "source": "https://www.linkedin.com/in/jon-runyan-3868a6"
+      },
+      {
+        "name": "Dan Wright",
+        "role": "Co-Founder and CEO at Armada",
+        "source": "https://www.linkedin.com/in/wrightdh"
+      }
+    ],
+    "company_owned_source": {}
+  },
+  {
+    "id": "2eba08f09701bc15",
+    "name": "Bright Machines",
+    "display_name": "Bright Machines ",
+    "associated_members": "266",
+    "company_size": "51-200",
+    "founded": "2018",
+    "headquarters": "Burlingame, California",
+    "website": "http://www.brightmachines.com/",
+    "about_url": "https://www.linkedin.com/company/bright-machines/about/",
+    "observed_at": "2026-11-01T03:32:23.178Z",
+    "people_url": "https://www.linkedin.com/company/bright-machines/people/?keywords=founder",
+    "accepted_leadership": [
+      {
+        "name": "Sviat Dulianinov",
+        "profile_url": "https://www.linkedin.com/in/sviat-dulianinov",
+        "role": "CEO at Bright Machines | Physical AI Building AI Infrastructure"
+      }
+    ],
+    "accepted_founders": [],
+    "company_owned_source": {}
+  },
+  {
+    "id": "bdeda084df7cd81b",
+    "name": "Wispr Flow",
+    "display_name": "Wispr Flow ",
+    "associated_members": "170",
+    "company_size": "51-200",
+    "founded": "2021",
+    "headquarters": "San Francisco, California",
+    "website": "https://wisprflow.ai/",
+    "about_url": "https://www.linkedin.com/company/wisprflow/about/",
+    "observed_at": "2026-11-01T03:32:28.969Z",
+    "people_url": "https://www.linkedin.com/company/wisprflow/people/?keywords=founder",
+    "accepted_leadership": [
+      {
+        "name": "Sahaj Garg",
+        "profile_url": "https://www.linkedin.com/in/sahajgarg",
+        "role": "Co-founder & CTO at Wispr Flow | Building the voice interface for computing"
+      },
+      {
+        "name": "Tanay Kothari",
+        "profile_url": "https://www.linkedin.com/in/tankots",
+        "role": "CEO at Wispr Flow | IOI Medalist | Forbes 30 under 30 | Stanford CS + AI"
+      }
+    ],
+    "accepted_founders": [
+      {
+        "name": "Sahaj Garg",
+        "role": "Co-founder & CTO at Wispr Flow | Building the voice interface for computing",
+        "source": "https://www.linkedin.com/in/sahajgarg"
+      }
+    ],
+    "company_owned_source": {}
+  },
+  {
+    "id": "b79fa251f937dcd3",
+    "name": "Forward",
+    "display_name": "Forward ",
+    "associated_members": "433",
+    "company_size": "51-200",
+    "founded": "2016",
+    "headquarters": "San Francisco, California",
+    "website": "http://goforward.com/",
+    "about_url": "https://www.linkedin.com/company/forwardinc/about/",
+    "observed_at": "2026-11-01T03:32:33.589Z",
+    "people_url": "https://www.linkedin.com/company/forwardinc/people/?keywords=founder",
+    "accepted_leadership": [],
+    "accepted_founders": [],
+    "company_owned_source": {}
+  },
+  {
+    "id": "4eb6f4ef39fa7944",
+    "name": "Starship Technologies",
+    "display_name": "Starship Technologies ",
+    "associated_members": "453",
+    "company_size": "201-500",
+    "founded": "2014",
+    "headquarters": "San Francisco, California",
+    "website": "https://www.starship.xyz/",
+    "about_url": "https://www.linkedin.com/company/starshiptechnologies/about/",
+    "observed_at": "2026-11-01T03:32:38.203Z",
+    "people_url": "https://www.linkedin.com/company/starshiptechnologies/people/?keywords=founder",
+    "accepted_leadership": [
+      {
+        "name": "Ahti Heinla",
+        "profile_url": "https://www.linkedin.com/in/ahtiheinla",
+        "role": "Co-founder, CEO, CTO at Starship Technologies"
+      }
+    ],
+    "accepted_founders": [
+      {
+        "name": "Ahti Heinla",
+        "role": "Co-founder, CEO, CTO at Starship Technologies",
+        "source": "https://www.linkedin.com/in/ahtiheinla"
+      }
+    ],
+    "company_owned_source": {}
+  },
+  {
+    "id": "bb11a401b3a5f98b",
+    "name": "Clarify Health Solutions",
+    "display_name": "Clarify Health Solutions ",
+    "associated_members": "127",
+    "company_size": "201-500",
+    "founded": "2015",
+    "headquarters": "San Francisco, CA",
+    "website": "https://clarifyhealth.com/",
+    "about_url": "https://www.linkedin.com/company/clarify-health-solutions/about/",
+    "observed_at": "2026-11-01T03:33:00.932Z",
+    "people_url": "https://www.linkedin.com/company/clarify-health-solutions/people/?keywords=founder",
+    "accepted_leadership": [],
+    "accepted_founders": [],
+    "company_owned_source": {}
+  },
+  {
+    "id": "292408843077c3f7",
+    "name": "Meltwater",
+    "display_name": "Meltwater ",
+    "associated_members": "2643",
+    "company_size": "1,001-5,000",
+    "founded": "2001",
+    "headquarters": "San Francisco, California",
+    "website": "http://meltwater.com/",
+    "about_url": "https://www.linkedin.com/company/meltwater/about/",
+    "observed_at": "2026-11-01T03:33:06.476Z",
+    "people_url": "https://www.linkedin.com/company/meltwater/people/?keywords=founder",
+    "accepted_leadership": [
+      {
+        "name": "J\u00f8rn Lyseggen",
+        "profile_url": "https://www.linkedin.com/in/j%C3%B8rn-lyseggen-1146301",
+        "role": "Founder and Executive Chairman Meltwater"
+      }
+    ],
+    "accepted_founders": [
+      {
+        "name": "J\u00f8rn Lyseggen",
+        "role": "Founder and Executive Chairman Meltwater",
+        "source": "https://www.linkedin.com/in/j%C3%B8rn-lyseggen-1146301"
+      }
+    ],
+    "company_owned_source": {}
+  },
+  {
+    "id": "861de66086705e56",
+    "name": "Anki",
+    "display_name": "Anki ",
+    "associated_members": "87",
+    "company_size": "51-200",
+    "founded": "2010",
+    "headquarters": "San Francisco, CA",
+    "website": "http://www.anki.bot/",
+    "about_url": "https://www.linkedin.com/company/anki/about/",
+    "observed_at": "2026-11-01T03:33:11.552Z",
+    "people_url": "https://www.linkedin.com/company/anki/people/?keywords=founder",
+    "accepted_leadership": [],
+    "accepted_founders": [],
+    "company_owned_source": {}
+  },
+  {
+    "id": "6b118ec9c938b784",
+    "name": "Imbue",
+    "display_name": "Imbue ",
+    "associated_members": "80",
+    "company_size": "11-50",
+    "founded": "",
+    "headquarters": "San Francisco, California",
+    "website": "https://imbue.com/",
+    "about_url": "https://www.linkedin.com/company/imbue-ai/about/",
+    "observed_at": "2026-11-01T03:33:15.798Z",
+    "people_url": "https://www.linkedin.com/company/imbue-ai/people/?keywords=founder",
+    "accepted_leadership": [
+      {
+        "name": "Kanjun Qiu",
+        "profile_url": "https://www.linkedin.com/in/kanjun",
+        "role": "CEO, Imbue (we\u2019re hiring!) | GP, Outset Capital"
+      }
+    ],
+    "accepted_founders": [],
+    "company_owned_source": {}
+  },
+  {
+    "id": "78ba5af490bab8f7",
+    "name": "Deepgram",
+    "display_name": "Deepgram ",
+    "associated_members": "387",
+    "company_size": "201-500",
+    "founded": "2015",
+    "headquarters": "San Francisco, California",
+    "website": "https://deepgram.com/",
+    "about_url": "https://www.linkedin.com/company/deepgram/about/",
+    "observed_at": "2026-11-01T03:33:21.599Z",
+    "people_url": "https://www.linkedin.com/company/deepgram/people/?keywords=founder",
+    "accepted_leadership": [],
+    "accepted_founders": [],
+    "company_owned_source": {
+      "ceo": "Scott Stephenson",
+      "ceo_role": "CEO",
+      "source": "https://deepgram.com/about"
+    }
+  },
+  {
+    "id": "0c0b79537b8e3597",
+    "name": "Hayden AI",
+    "display_name": "Hayden AI ",
+    "associated_members": "198",
+    "company_size": "51-200",
+    "founded": "",
+    "headquarters": "San Francisco, California",
+    "website": "http://www.hayden.ai/",
+    "about_url": "https://www.linkedin.com/company/haydenaitech/about/",
+    "observed_at": "2026-11-01T03:33:27.176Z",
+    "people_url": "https://www.linkedin.com/company/haydenaitech/people/?keywords=founder",
+    "accepted_leadership": [
+      {
+        "name": "Vaibhav Ghadiok",
+        "profile_url": "https://www.linkedin.com/in/vghadiok",
+        "role": "Cofounder & CTO, Hayden AI | Physical AI at City Scale"
+      }
+    ],
+    "accepted_founders": [
+      {
+        "name": "Vaibhav Ghadiok",
+        "role": "Cofounder & CTO, Hayden AI | Physical AI at City Scale",
+        "source": "https://www.linkedin.com/in/vghadiok"
+      }
+    ],
+    "company_owned_source": {}
+  },
+  {
+    "id": "2eaaed2cb71bf155",
+    "name": "CleverTap",
+    "display_name": "CleverTap ",
+    "associated_members": "643",
+    "company_size": "501-1,000",
+    "founded": "2013",
+    "headquarters": "San Francisco, California",
+    "website": "https://clevertap.com/",
+    "about_url": "https://www.linkedin.com/company/clevertap/about/",
+    "observed_at": "2026-11-01T03:34:22.063Z",
+    "people_url": "https://www.linkedin.com/company/clevertap/people/?keywords=founder",
+    "accepted_leadership": [
+      {
+        "name": "Sunil Thomas",
+        "profile_url": "https://www.linkedin.com/in/sunil-tom",
+        "role": "Co-Founder & CEO at CleverTap"
+      },
+      {
+        "name": "Suresh Kondamudi",
+        "profile_url": "https://www.linkedin.com/in/suresh-kondamudi-43bbb25",
+        "role": "Co-founder and CTO at CleverTap"
+      },
+      {
+        "name": "Anand Jain",
+        "profile_url": "https://www.linkedin.com/in/anand-jain-07a8012",
+        "role": "Co-founder + Product Marketing at CleverTap"
+      }
+    ],
+    "accepted_founders": [
+      {
+        "name": "Sunil Thomas",
+        "role": "Co-Founder & CEO at CleverTap",
+        "source": "https://www.linkedin.com/in/sunil-tom"
+      },
+      {
+        "name": "Suresh Kondamudi",
+        "role": "Co-founder and CTO at CleverTap",
+        "source": "https://www.linkedin.com/in/suresh-kondamudi-43bbb25"
+      },
+      {
+        "name": "Anand Jain",
+        "role": "Co-founder + Product Marketing at CleverTap",
+        "source": "https://www.linkedin.com/in/anand-jain-07a8012"
+      }
+    ],
+    "company_owned_source": {}
+  },
+  {
+    "id": "068c27b628342f07",
+    "name": "Canary Technologies",
+    "display_name": "Canary Technologies ",
+    "associated_members": "401",
+    "company_size": "201-500",
+    "founded": "",
+    "headquarters": "San Francisco, California",
+    "website": "http://www.CanaryTechnologies.com/",
+    "about_url": "https://www.linkedin.com/company/canarytech/about/",
+    "observed_at": "2026-11-01T03:34:26.796Z",
+    "people_url": "https://www.linkedin.com/company/canarytech/people/?keywords=founder",
+    "accepted_leadership": [
+      {
+        "name": "Harman Singh Narula",
+        "profile_url": "https://www.linkedin.com/in/harmansn",
+        "role": "Co-Founder & CEO at Canary Technologies"
+      }
+    ],
+    "accepted_founders": [
+      {
+        "name": "Harman Singh Narula",
+        "role": "Co-Founder & CEO at Canary Technologies",
+        "source": "https://www.linkedin.com/in/harmansn"
+      }
+    ],
+    "company_owned_source": {}
+  },
+  {
+    "id": "eeaf10e8cae737e5",
+    "name": "Tecton",
+    "display_name": "Tecton ",
+    "associated_members": "99",
+    "company_size": "51-200",
+    "founded": "2019",
+    "headquarters": "San Francisco, California",
+    "website": "https://tecton.ai/",
+    "about_url": "https://www.linkedin.com/company/tectonai/about/",
+    "observed_at": "2026-11-01T03:34:31.523Z",
+    "people_url": "https://www.linkedin.com/company/tectonai/people/?keywords=founder",
+    "accepted_leadership": [],
+    "accepted_founders": [],
+    "company_owned_source": {}
+  },
+  {
+    "id": "8e4253af93090640",
+    "name": "DroneDeploy",
+    "display_name": "DroneDeploy ",
+    "associated_members": "305",
+    "company_size": "201-500",
+    "founded": "2013",
+    "headquarters": "San Francisco, California",
+    "website": "https://www.dronedeploy.com/",
+    "about_url": "https://www.linkedin.com/company/dronedeploy/about/",
+    "observed_at": "2026-11-01T03:34:36.736Z",
+    "people_url": "https://www.linkedin.com/company/dronedeploy/people/?keywords=founder",
+    "accepted_leadership": [
+      {
+        "name": "Jono M.",
+        "profile_url": "https://www.linkedin.com/in/jonomillin",
+        "role": "Co-Founder and Chief Data Officer at DroneDeploy (We're Hiring!)"
+      },
+      {
+        "name": "Mike Winn",
+        "profile_url": "https://www.linkedin.com/in/mikewinn1",
+        "role": "CEO at DroneDeploy (Now Hiring!)"
+      }
+    ],
+    "accepted_founders": [
+      {
+        "name": "Jono M.",
+        "role": "Co-Founder and Chief Data Officer at DroneDeploy (We're Hiring!)",
+        "source": "https://www.linkedin.com/in/jonomillin"
+      }
+    ],
+    "company_owned_source": {}
+  },
+  {
+    "id": "75df56f412bdeb5f",
+    "name": "Laurel",
+    "display_name": "Laurel ",
+    "associated_members": "330",
+    "company_size": "51-200",
+    "founded": "2018",
+    "headquarters": "San Francisco, California",
+    "website": "http://laurel.ai/",
+    "about_url": "https://www.linkedin.com/company/laurel-ai/about/",
+    "observed_at": "2026-11-01T03:34:41.418Z",
+    "people_url": "https://www.linkedin.com/company/laurel-ai/people/?keywords=founder",
+    "accepted_leadership": [
+      {
+        "name": "Kourosh Zamani",
+        "profile_url": "https://www.linkedin.com/in/kouroshz",
+        "role": "Co-Founder at Laurel"
+      }
+    ],
+    "accepted_founders": [
+      {
+        "name": "Kourosh Zamani",
+        "role": "Co-Founder at Laurel",
+        "source": "https://www.linkedin.com/in/kouroshz"
+      }
+    ],
+    "company_owned_source": {}
+  },
+  {
+    "id": "5f1da8f13a16a4eb",
+    "name": "Pipefy",
+    "display_name": "Pipefy ",
+    "associated_members": "628",
+    "company_size": "501-1,000",
+    "founded": "2015",
+    "headquarters": "San Francisco, California",
+    "website": "https://www.pipefy.com/",
+    "about_url": "https://www.linkedin.com/company/pipefy/about/",
+    "observed_at": "2026-11-01T03:36:03.462Z",
+    "people_url": "https://www.linkedin.com/company/pipefy/people/?keywords=founder",
+    "company_id": "5202118",
+    "website_display": "www.pipefy.com",
+    "accepted_leadership": [
+      {
+        "name": "Alessio Alionco",
+        "profile_url": "https://www.linkedin.com/in/alessioalionco",
+        "role": "Love to get ideas off the ground | Pipefy Founder and CEO | Serial Entrepreneur making AI powerful and accessible to transform workflows"
+      }
+    ],
+    "accepted_founders": [
+      {
+        "name": "Alessio Alionco",
+        "role": "Love to get ideas off the ground | Pipefy Founder and CEO | Serial Entrepreneur making AI powerful and accessible to transform workflows",
+        "source": "https://www.linkedin.com/in/alessioalionco"
+      }
+    ],
+    "company_owned_source": {}
+  },
+  {
+    "id": "0bb16ebb52436cfc",
+    "name": "Jasper",
+    "display_name": "Jasper ",
+    "associated_members": "1019",
+    "company_id": "70904927",
+    "company_size": "201-500",
+    "founded": "2020",
+    "headquarters": "San Francisco, California",
+    "website": "https://jasper.ai/",
+    "website_display": "https://jasper.ai",
+    "about_url": "https://www.linkedin.com/company/heyjasperai/about/",
+    "observed_at": "2026-11-01T03:36:05.251Z",
+    "people_url": "",
+    "accepted_leadership": [],
+    "accepted_founders": [],
+    "company_owned_source": {}
+  },
+  {
+    "id": "181e486bedf4f185",
+    "name": "Fieldguide",
+    "display_name": "Fieldguide ",
+    "associated_members": "257",
+    "company_id": "65615916",
+    "company_size": "201-500",
+    "founded": "2020",
+    "headquarters": "San Francisco, CA",
+    "website": "http://www.fieldguide.com/",
+    "website_display": "http://www.fieldguide.com",
+    "about_url": "https://www.linkedin.com/company/fieldguide-inc/about/",
+    "observed_at": "2026-11-01T03:36:07.154Z",
+    "people_url": "https://www.linkedin.com/company/fieldguide-inc/people/?keywords=founder",
+    "accepted_leadership": [],
+    "accepted_founders": [
+      {
+        "name": "Jin Chang",
+        "role": "Co-founder",
+        "source": "https://www.fieldguide.com/about"
+      },
+      {
+        "name": "Chris Szymansky",
+        "role": "Co-founder",
+        "source": "https://www.fieldguide.com/about"
+      }
+    ],
+    "company_owned_source": {
+      "ceo": "Jin Chang",
+      "ceo_role": "CEO & Co-Founder",
+      "founders": [
+        "Jin Chang",
+        "Chris Szymansky"
+      ],
+      "source": "https://www.fieldguide.com/about"
+    }
+  },
+  {
+    "id": "7181a61710bd0fd7",
+    "name": "Soul Machines",
+    "display_name": "Soul Machines ",
+    "associated_members": "34",
+    "company_id": "18423812",
+    "company_size": "51-200",
+    "founded": "",
+    "headquarters": "San Francisco, California",
+    "website": "http://www.soulmachines.com/",
+    "website_display": "http://www.soulmachines.com",
+    "about_url": "https://www.linkedin.com/company/soul-machines-os/about/",
+    "observed_at": "2026-11-01T03:36:12.037Z",
+    "people_url": "https://www.linkedin.com/company/soul-machines-os/people/?keywords=founder",
+    "accepted_leadership": [],
+    "accepted_founders": [
+      {
+        "name": "Greg Cross",
+        "role": "Co-founder",
+        "source": "https://www.soulmachines.com/about-soul-machines"
+      },
+      {
+        "name": "Mark Sagar",
+        "role": "Co-founder",
+        "source": "https://www.soulmachines.com/about-soul-machines"
+      }
+    ],
+    "company_owned_source": {
+      "founders": [
+        "Greg Cross",
+        "Mark Sagar"
+      ],
+      "source": "https://www.soulmachines.com/about-soul-machines"
+    }
+  },
+  {
+    "id": "d672568152730d0f",
+    "name": "Brightseed",
+    "display_name": "Brightseed ",
+    "associated_members": "35",
+    "company_id": "18394094",
+    "company_size": "51-200",
+    "founded": "2017",
+    "headquarters": "San Francisco, California",
+    "website": "https://www.brightseedbio.com/",
+    "website_display": "https://www.brightseedbio.com/",
+    "about_url": "https://www.linkedin.com/company/brightseedinc/about/",
+    "observed_at": "2026-11-01T03:36:16.133Z",
+    "people_url": "",
+    "accepted_leadership": [],
+    "accepted_founders": [],
+    "company_owned_source": {}
+  },
+  {
+    "id": "8525e0d084c075ac",
+    "name": "Forethought",
+    "display_name": "Forethought ",
+    "associated_members": "89",
+    "company_id": "18555572",
+    "company_size": "51-200",
+    "founded": "2017",
+    "headquarters": "San Francisco, California",
+    "website": "http://www.forethought.ai/",
+    "website_display": "http://www.forethought.ai",
+    "about_url": "https://www.linkedin.com/company/forethought-ai/about/",
+    "observed_at": "2026-11-01T03:36:17.983Z",
+    "people_url": "https://www.linkedin.com/company/forethought-ai/people/?keywords=founder",
+    "accepted_leadership": [],
+    "accepted_founders": [
+      {
+        "name": "Deon Nicholas",
+        "role": "Co-founder",
+        "source": "https://forethought.ai/team-member/deon-nicholas"
+      }
+    ],
+    "company_owned_source": {
+      "founders": [
+        "Deon Nicholas"
+      ],
+      "source": "https://forethought.ai/team-member/deon-nicholas"
+    }
+  },
+  {
+    "id": "f141b24404687f7d",
+    "name": "Safely You",
+    "display_name": "SafelyYou ",
+    "associated_members": "201",
+    "company_id": "17951868",
+    "company_size": "51-200",
+    "founded": "2015",
+    "headquarters": "San Francisco, CA",
+    "website": "http://www.safely-you.com/",
+    "website_display": "http://www.safely-you.com/",
+    "about_url": "https://www.linkedin.com/company/safelyyou/about/",
+    "observed_at": "2026-11-01T03:36:22.792Z",
+    "people_url": "",
+    "accepted_leadership": [],
+    "accepted_founders": [],
+    "company_owned_source": {}
+  },
+  {
+    "id": "a301e92c4e8790bf",
+    "name": "Built Robotics",
+    "display_name": "Built Robotics ",
+    "associated_members": "38",
+    "company_id": "18301198",
+    "company_size": "11-50",
+    "founded": "2016",
+    "headquarters": "San Francisco, California",
+    "website": "http://www.builtrobotics.com/",
+    "website_display": "http://www.builtrobotics.com",
+    "about_url": "https://www.linkedin.com/company/builtrobotics/about/",
+    "observed_at": "2026-11-01T03:39:18.361Z",
+    "people_url": "",
+    "accepted_leadership": [],
+    "accepted_founders": [],
+    "company_owned_source": {}
+  },
+  {
+    "id": "f14d9c463ac6ce59",
+    "name": "Encord",
+    "display_name": "Encord ",
+    "associated_members": "231",
+    "company_id": "69557125",
+    "company_size": "201-500",
+    "founded": "2021",
+    "headquarters": "San Francisco, California",
+    "website": "https://encord.com/",
+    "website_display": "https://encord.com/",
+    "about_url": "https://www.linkedin.com/company/encord-team/about/",
+    "observed_at": "2026-11-01T03:39:20.951Z",
+    "people_url": "",
+    "accepted_leadership": [],
+    "accepted_founders": [],
+    "company_owned_source": {}
+  },
+  {
+    "id": "da35ad573745ec70",
+    "name": "Blueshift",
+    "display_name": "Blueshift ",
+    "associated_members": "67",
+    "company_id": "3768967",
+    "company_size": "51-200",
+    "founded": "2014",
+    "headquarters": "San Francisco, California",
+    "website": "https://blueshift.com/",
+    "website_display": "https://blueshift.com",
+    "about_url": "https://www.linkedin.com/company/blueshift-labs-inc/about/",
+    "observed_at": "2026-11-01T03:39:23.528Z",
+    "people_url": "",
+    "accepted_leadership": [],
+    "accepted_founders": [],
+    "company_owned_source": {}
+  },
+  {
+    "id": "9f3af52cda271229",
+    "name": "Aktana",
+    "display_name": "Aktana ",
+    "associated_members": "118",
+    "company_id": "475316",
+    "company_size": "201-500",
+    "founded": "2008",
+    "headquarters": "San Francisco, CA",
+    "website": "http://www.aktana.com/",
+    "website_display": "http://www.aktana.com",
+    "about_url": "https://www.linkedin.com/company/aktana/about/",
+    "observed_at": "2026-11-01T03:39:25.576Z",
+    "people_url": "https://www.linkedin.com/company/aktana/people/?keywords=founder",
+    "accepted_leadership": [],
+    "accepted_founders": [],
+    "company_owned_source": {}
+  },
+  {
+    "id": "dac35a701a3527d5",
+    "name": "Osaro",
+    "display_name": "OSARO ",
+    "associated_members": "96",
+    "company_id": "6458397",
+    "company_size": "51-200",
+    "founded": "2015",
+    "headquarters": "San Francisco, CALIFORNIA",
+    "website": "http://www.osaro.com/",
+    "website_display": "http://www.osaro.com",
+    "about_url": "https://www.linkedin.com/company/osaroinc/about/",
+    "observed_at": "2026-11-01T03:39:30.198Z",
+    "people_url": "",
+    "accepted_leadership": [],
+    "accepted_founders": [],
+    "company_owned_source": {}
+  },
+  {
+    "id": "02cd797a979a7dd1",
+    "name": "Sprig",
+    "display_name": "Sprig ",
+    "associated_members": "261",
+    "company_id": "18717471",
+    "company_size": "51-200",
+    "founded": "2019",
+    "headquarters": "San Francisco, California",
+    "website": "https://sprig.com/",
+    "website_display": "https://sprig.com/",
+    "about_url": "https://www.linkedin.com/company/sprig-official/about/",
+    "observed_at": "2026-11-01T03:39:32.520Z",
+    "people_url": "",
+    "accepted_leadership": [],
+    "accepted_founders": [],
+    "company_owned_source": {}
+  },
+  {
+    "id": "aae555b40b8283b5",
+    "name": "Gruve",
+    "display_name": "Gruve ",
+    "associated_members": "506",
+    "company_id": "99391417",
+    "company_size": "501-1,000",
+    "founded": "2024",
+    "headquarters": "Redwood City, California",
+    "website": "https://www.gruve.ai/",
+    "website_display": "https://www.gruve.ai",
+    "about_url": "https://www.linkedin.com/company/gruveai/about/",
+    "observed_at": "2026-11-01T03:39:38.383Z",
+    "people_url": "",
+    "accepted_leadership": [],
+    "accepted_founders": [],
+    "company_owned_source": {}
+  },
+  {
+    "id": "63e5857d35392506",
+    "name": "VergeSense",
+    "display_name": "VergeSense ",
+    "associated_members": "109",
+    "company_id": "33454391",
+    "company_size": "51-200",
+    "founded": "2017",
+    "headquarters": "Mountain View, California",
+    "website": "https://www.vergesense.com/",
+    "website_display": "https://www.vergesense.com",
+    "about_url": "https://www.linkedin.com/company/vergesense/about/",
+    "observed_at": "2026-11-01T03:39:40.075Z",
+    "people_url": "https://www.linkedin.com/company/vergesense/people/?keywords=founder",
+    "accepted_leadership": [
+      {
+        "name": "Dan Ryan",
+        "profile_url": "https://www.linkedin.com/in/dpryan87",
+        "role": "CEO / Co-Founder at VergeSense"
+      }
+    ],
+    "accepted_founders": [
+      {
+        "name": "Dan Ryan",
+        "role": "CEO / Co-Founder at VergeSense",
+        "source": "https://www.linkedin.com/in/dpryan87"
+      }
+    ],
+    "company_owned_source": {}
+  },
+  {
+    "id": "a75608a261169d54",
+    "name": "Raydiant",
+    "display_name": "Raydiant ",
+    "associated_members": "123",
+    "company_id": "",
+    "company_size": "51-200",
+    "founded": "",
+    "headquarters": "San Francisco, California",
+    "website": "https://www.displai.ai/",
+    "website_display": "https://www.displai.ai",
+    "about_url": "https://www.linkedin.com/company/tryraydiant/about/",
+    "observed_at": "2026-11-01T03:39:45.168Z",
+    "people_url": "https://www.linkedin.com/company/tryraydiant/people/?keywords=founder",
+    "accepted_leadership": [],
+    "accepted_founders": [],
+    "company_owned_source": {}
+  },
+  {
+    "id": "c7c861955670cf77",
+    "name": "Ellipsis Health",
+    "display_name": "Ellipsis Health ",
+    "associated_members": "107",
+    "company_id": "3080478",
+    "company_size": "51-200",
+    "founded": "2017",
+    "headquarters": "San Francisco, California",
+    "website": "http://www.ellipsishealth.com/",
+    "website_display": "http://www.ellipsishealth.com",
+    "about_url": "https://www.linkedin.com/company/ellipsis-health/about/",
+    "observed_at": "2026-11-01T03:39:49.672Z",
+    "people_url": "",
+    "accepted_leadership": [],
+    "accepted_founders": [],
+    "company_owned_source": {}
+  },
+  {
+    "id": "fe1ad99f85aa9991",
+    "name": "Skycatch",
+    "display_name": "Skycatch ",
+    "associated_members": "29",
+    "company_id": "3012062",
+    "company_size": "51-200",
+    "founded": "2013",
+    "headquarters": "San Francisco, CA",
+    "website": "http://www.skycatch.com/",
+    "website_display": "http://www.skycatch.com",
+    "about_url": "https://www.linkedin.com/company/skycatch/about/",
+    "observed_at": "2026-11-01T03:39:52.309Z",
+    "people_url": "https://www.linkedin.com/company/skycatch/people/?keywords=founder",
+    "accepted_leadership": [],
+    "accepted_founders": [],
+    "company_owned_source": {}
+  },
+  {
+    "id": "bbd2092f2554dfc6",
+    "name": "Directly",
+    "display_name": "Directly ",
+    "associated_members": "381",
+    "company_id": "2830004",
+    "company_size": "51-200",
+    "founded": "2011",
+    "headquarters": "San Francisco, California",
+    "website": "http://www.directly.com/",
+    "website_display": "http://www.directly.com",
+    "about_url": "https://www.linkedin.com/company/directly/about/",
+    "observed_at": "2026-11-01T03:39:56.573Z",
+    "people_url": "https://www.linkedin.com/company/directly/people/?keywords=founder",
+    "accepted_leadership": [],
+    "accepted_founders": [],
+    "company_owned_source": {}
+  },
+  {
+    "id": "1874eabde0957c6f",
+    "name": "Numerai",
+    "display_name": "Numerai ",
+    "associated_members": "57",
+    "company_id": "10303433",
+    "company_size": "11-50",
+    "founded": "2015",
+    "headquarters": "San Francisco, California",
+    "website": "https://numer.ai/",
+    "website_display": "https://numer.ai",
+    "about_url": "https://www.linkedin.com/company/numerai/about/",
+    "observed_at": "2026-11-01T03:40:01.086Z",
+    "people_url": "https://www.linkedin.com/company/numerai/people/?keywords=founder",
+    "accepted_leadership": [],
+    "accepted_founders": [],
+    "company_owned_source": {}
+  },
+  {
+    "id": "034eecca1a5c3210",
+    "name": "Fathom",
+    "display_name": "Fathom ",
+    "associated_members": "72",
+    "company_id": "17933978",
+    "company_size": "51-200",
+    "founded": "2017",
+    "headquarters": "San Francisco, California",
+    "website": "http://fathomhealth.com/",
+    "website_display": "http://fathomhealth.com",
+    "about_url": "https://www.linkedin.com/company/fathom-health/about/",
+    "observed_at": "2026-11-01T03:40:05.706Z",
+    "people_url": "https://www.linkedin.com/company/fathom-health/people/?keywords=founder",
+    "accepted_leadership": [
+      {
+        "name": "Andrew Lockhart",
+        "profile_url": "https://www.linkedin.com/in/andrewlockhart",
+        "role": "Co-Founder and CEO at Fathom -- Autonomous medical coding"
+      }
+    ],
+    "accepted_founders": [
+      {
+        "name": "Andrew Lockhart",
+        "role": "Co-Founder and CEO at Fathom -- Autonomous medical coding",
+        "source": "https://www.linkedin.com/in/andrewlockhart"
+      }
+    ],
+    "company_owned_source": {}
+  },
+  {
+    "id": "175a2dc18362ae51",
+    "name": "Carta Healthcare",
+    "display_name": "Carta Healthcare ",
+    "associated_members": "134",
+    "company_id": "18706683",
+    "company_size": "51-200",
+    "founded": "2017",
+    "headquarters": "San Francisco, CA",
+    "website": "https://www.carta.healthcare/",
+    "website_display": "https://www.carta.healthcare/",
+    "about_url": "https://www.linkedin.com/company/cartahealthcare/about/",
+    "observed_at": "2026-11-01T03:40:18.736Z",
+    "people_url": "",
+    "accepted_leadership": [],
+    "accepted_founders": [],
+    "company_owned_source": {}
+  },
+  {
+    "id": "f96d65362add16f7",
+    "name": "Lindy",
+    "display_name": "Lindy ",
+    "associated_members": "59",
+    "company_id": "90503587",
+    "company_size": "11-50",
+    "founded": "2023",
+    "headquarters": "",
+    "website": "https://www.lindy.ai/",
+    "website_display": "https://www.lindy.ai/",
+    "about_url": "https://www.linkedin.com/company/lindyai/about/",
+    "observed_at": "2026-11-01T03:40:20.739Z",
+    "people_url": "",
+    "accepted_leadership": [],
+    "accepted_founders": [],
+    "company_owned_source": {}
+  },
+  {
+    "id": "1b88dec86545d394",
+    "name": "Canvas",
+    "display_name": "Canvas ",
+    "associated_members": "105",
+    "company_id": "18425170",
+    "company_size": "51-200",
+    "founded": "",
+    "headquarters": "San Francisco, California",
+    "website": "https://www.jlg.com/en/canvas",
+    "website_display": "https://www.jlg.com/en/canvas",
+    "about_url": "https://www.linkedin.com/company/jlg-canvas-robotics/about/",
+    "observed_at": "2026-11-01T03:40:22.204Z",
+    "people_url": "https://www.linkedin.com/company/jlg-canvas-robotics/people/?keywords=founder",
+    "accepted_leadership": [
+      {
+        "name": "Maria Telleria",
+        "profile_url": "https://www.linkedin.com/in/mariatelleria",
+        "role": "Co-Founder and CTO at Canvas"
+      }
+    ],
+    "accepted_founders": [
+      {
+        "name": "Maria Telleria",
+        "role": "Co-Founder and CTO at Canvas",
+        "source": "https://www.linkedin.com/in/mariatelleria"
+      }
+    ],
+    "company_owned_source": {}
+  },
+  {
+    "id": "63ccfff058ce31e1",
+    "name": "Magical",
+    "display_name": "Magical",
+    "associated_members": "135",
+    "company_id": "72687471",
+    "company_size": "51-200",
+    "founded": "2020",
+    "headquarters": "",
+    "website": "https://www.getmagical.com/",
+    "website_display": "https://www.getmagical.com?utm_source=linkedin&utm_medium=company-profile",
+    "about_url": "https://www.linkedin.com/company/getmagical/about/",
+    "observed_at": "2026-11-01T03:40:26.680Z",
+    "people_url": "https://www.linkedin.com/company/getmagical/people/?keywords=founder",
+    "accepted_leadership": [
+      {
+        "name": "Harpaul Sambhi",
+        "profile_url": "https://www.linkedin.com/in/hsambhi",
+        "role": "Magical Founder | Agentic AI for Healthcare. Serial Entrepreneur (sold last co to LinkedIn). Human"
+      }
+    ],
+    "accepted_founders": [
+      {
+        "name": "Harpaul Sambhi",
+        "role": "Magical Founder | Agentic AI for Healthcare. Serial Entrepreneur (sold last co to LinkedIn). Human",
+        "source": "https://www.linkedin.com/in/hsambhi"
+      }
+    ],
+    "company_owned_source": {}
+  },
+  {
+    "id": "b43a7e95e0a1b85a",
+    "name": "ClimateAI",
+    "display_name": "ClimateAi ",
+    "associated_members": "28",
+    "company_id": "33191409",
+    "company_size": "51-200",
+    "founded": "2017",
+    "headquarters": "San Francisco, California",
+    "website": "http://climate.ai/",
+    "website_display": "http://climate.ai/",
+    "about_url": "https://www.linkedin.com/company/climateai/about/",
+    "observed_at": "2026-11-01T03:40:31.349Z",
+    "people_url": "https://www.linkedin.com/company/climateai/people/?keywords=founder",
+    "accepted_leadership": [],
+    "accepted_founders": [],
+    "company_owned_source": {}
+  },
+  {
+    "id": "aecef6832c475b07",
+    "name": "Tesorio",
+    "display_name": "Tesorio ",
+    "associated_members": "44",
+    "company_id": "3608288",
+    "company_size": "11-50",
+    "founded": "2015",
+    "headquarters": "San Francisco, California",
+    "website": "http://www.tesorio.com/",
+    "website_display": "http://www.tesorio.com",
+    "about_url": "https://www.linkedin.com/company/tesorio/about/",
+    "observed_at": "2026-11-01T03:40:36.716Z",
+    "people_url": "https://www.linkedin.com/company/tesorio/people/?keywords=founder",
+    "accepted_leadership": [
+      {
+        "name": "Carlos R. Vega",
+        "profile_url": "https://www.linkedin.com/in/carlos-r-vega",
+        "role": "Co-Founder & CEO @ Tesorio | Agentic Order-to-Cash"
+      },
+      {
+        "name": "Fabio Fleitas",
+        "profile_url": "https://www.linkedin.com/in/fabiofleitas",
+        "role": "Co-Founder / CTO @ Tesorio (Madrona, First Round Capital, Floodgate, Fuel, Fathom, Y Combinator)"
+      }
+    ],
+    "accepted_founders": [
+      {
+        "name": "Carlos R. Vega",
+        "role": "Co-Founder & CEO @ Tesorio | Agentic Order-to-Cash",
+        "source": "https://www.linkedin.com/in/carlos-r-vega"
+      },
+      {
+        "name": "Fabio Fleitas",
+        "role": "Co-Founder / CTO @ Tesorio (Madrona, First Round Capital, Floodgate, Fuel, Fathom, Y Combinator)",
+        "source": "https://www.linkedin.com/in/fabiofleitas"
+      }
+    ],
+    "company_owned_source": {}
+  },
+  {
+    "id": "47f7408fbecf7f69",
+    "name": "Freed",
+    "display_name": "Freed ",
+    "associated_members": "138",
+    "company_id": "96274672",
+    "company_size": "51-200",
+    "founded": "2023",
+    "headquarters": "San Francisco, CA",
+    "website": "https://www.getfreed.ai/",
+    "website_display": "https://www.getfreed.ai/",
+    "about_url": "https://www.linkedin.com/company/freed-ai/about/",
+    "observed_at": "2026-11-01T03:40:41.549Z",
+    "people_url": "https://www.linkedin.com/company/freed-ai/people/?keywords=founder",
+    "accepted_leadership": [
+      {
+        "name": "Andrey Bannikov",
+        "profile_url": "https://www.linkedin.com/in/bannikovandrey",
+        "role": "Co-Founder & CTO at Freed"
+      }
+    ],
+    "accepted_founders": [
+      {
+        "name": "Andrey Bannikov",
+        "role": "Co-Founder & CTO at Freed",
+        "source": "https://www.linkedin.com/in/bannikovandrey"
+      }
+    ],
+    "company_owned_source": {}
+  },
+  {
+    "id": "56eb759678e33156",
+    "name": "AeroVect",
+    "display_name": "AeroVect ",
+    "associated_members": "75",
+    "company_id": "56421102",
+    "company_size": "51-200",
+    "founded": "2020",
+    "headquarters": "South San Francisco, California",
+    "website": "http://aerovect.com/",
+    "website_display": "http://aerovect.com",
+    "about_url": "https://www.linkedin.com/company/aerovect/about/",
+    "observed_at": "2026-11-01T03:40:46.281Z",
+    "people_url": "https://www.linkedin.com/company/aerovect/people/?keywords=founder",
+    "accepted_leadership": [
+      {
+        "name": "Raymond Wang",
+        "profile_url": "https://www.linkedin.com/in/raymondrwang",
+        "role": "Co-Founder, CEO at AeroVect"
+      },
+      {
+        "name": "Eugenio Donati",
+        "profile_url": "https://www.linkedin.com/in/eugeniodonati",
+        "role": "Co-Founder at AeroVect | Autonomous Airport Logistics - hiring!"
+      }
+    ],
+    "accepted_founders": [
+      {
+        "name": "Raymond Wang",
+        "role": "Co-Founder, CEO at AeroVect",
+        "source": "https://www.linkedin.com/in/raymondrwang"
+      },
+      {
+        "name": "Eugenio Donati",
+        "role": "Co-Founder at AeroVect | Autonomous Airport Logistics - hiring!",
+        "source": "https://www.linkedin.com/in/eugeniodonati"
+      }
+    ],
+    "company_owned_source": {}
+  }
+]

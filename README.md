@@ -28,9 +28,9 @@ The HTML contains a snapshot of the data. Editing files under `data/` alone will
 
 Company names link to source-listed official websites when established. Visitor-facing company references prioritize the company website, then LinkedIn About; FundingWatcher links and labels are omitted from company cards, tables, and details. Original dataset provenance remains in downloadable records and credits. Unknown website names stay as plain text; LinkedIn and record sources remain separately labeled.
 
-Current partial coverage: **2,685 websites**, **2,554 reported team sizes/headcount bands**, and **62 researched CEO/co-CEO records**. Use the **Profile data** filter to browse these records. Names, company websites, and CEO names are searchable. Both cards and tables show team and CEO annotations; company details include evidence URLs and observed dates.
+Current partial coverage: **2,686 websites**, **2,563 reported team sizes/headcount bands** (including **72 LinkedIn About sizes**), **70 CEO records**, and **23 records with sourced founders**. Use the **Profile data** filter to browse these records. Names, company websites, and CEO names are searchable. Both cards and tables show team and CEO annotations; company details include evidence URLs and observed dates.
 
-Team sizes are company-wide source snapshots, not live counts or Bay Area office staffing. LinkedIn search-filter size bands are stored separately and are not reported as employee counts. CEOs are populated only where an explicit title was checked; founder status alone is insufficient. No domains or CEO names are guessed.
+Team sizes are company-wide source snapshots, not live counts or Bay Area office staffing. LinkedIn search-filter size bands are stored separately and are not reported as employee counts. CEOs are populated only where an explicit title was checked. Founders have their own field and evidence links; founder status alone does not establish a current CEO role. No domains or CEO names are guessed.
 
 The expanded sweep attempted **3,914** existing records with a missing website and a LinkedIn URL; **1,063** matching records supplied usable public company fields. Separately, **29 signed-in About and CEO-filtered People tabs** were inspected. The directory now has **1,016** LinkedIn-associated member counts. LinkedIn-associated members are shown separately from employees and selected company-size ranges. Profiles no longer display internal screening or matching notes.
 
@@ -49,3 +49,5 @@ See [methodology](data/methodology.md), [search coverage](data/search-coverage-a
 Sources: FundingWatcher and SF Tech Map (CC BY 4.0); public LinkedIn company results; YC directory via yc-oss. Coordinates: GeoNames. Boundaries: US Census / us-atlas. Source links and evidence are retained in the CSV.
 
 Snapshot packaged October 31, 2026. This app does not automatically refresh its data.
+
+The saved October 31 enrichment checkpoint adds 50 company About reviews, sourced founder annotations, and an **About size + website + leader** filter. 59 records meet those three fields together. Full enrichment remains incomplete; further research is paused. See [checkpoint evidence](data/enrichment-checkpoint-review.json).

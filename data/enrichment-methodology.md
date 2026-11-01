@@ -44,3 +44,11 @@ The accepted People-tab roles must explicitly identify the target company, or be
 No account name, mutual connections, connection degrees, private messages, contact details, or unreviewed employee lists are published. This directory records company facts and leadership evidence; LinkedIn People results do not constitute a verified employee roster. Enrichment remains partial.
 
 Thirteen university units, student groups, and institutional research groups missed by the earlier screen were moved to excluded-records.csv. The current directory has 8,632 records; the original collection's earlier totals are historical.
+
+## Paused-pass checkpoint, October 31, 2026
+
+Published 50 additional company About reviews from the saved checkpoint. These replace older size and website snapshots for those exact existing LinkedIn identities. Website tracking parameters were removed. Associated-member totals remain separate from company-selected size ranges. Dates use America/Los_Angeles.
+
+Only explicitly matched professional roles are accepted from People results. Founders are stored separately from current CEOs, with individual evidence links. Ambiguous or unrelated candidates are withheld. Previously inspected company-owned pages supply Deepgram and Fieldguide CEO evidence and Fieldguide, Soul Machines, and Forethought founder evidence. Soul Machines founders are not labeled current CEOs because the collected sources conflicted on current leadership. Founder lists are partial, not exhaustive. No unreviewed People lists or private account data are published.
+
+Coverage after this checkpoint: 72 records with LinkedIn About size sources; 23 with sourced founder names; 59 with About size, website, and CEO or founder together. The full enrichment is incomplete and further research remains paused. See enrichment-checkpoint-review.json for accepted evidence.
