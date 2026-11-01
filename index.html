@@ -29,6 +29,9 @@ function element(tag, attrs = {}) { const e = document.createElementNS(NS, tag);
 function safeURL(value) { try { const u = new URL(value); return ['https:','http:'].includes(u.protocol) ? u.href : ''; } catch { return ''; } }
 function link(label, href) { const a = document.createElement('a'); a.textContent = label; a.href = safeURL(href); a.target = '_blank'; a.rel = 'noopener noreferrer'; return a; }
 function filtered() { const q = $('search').value.trim().toLocaleLowerCase(); return state.records.filter(r => (!$('city').value || r.city === $('city').value) && (!$('source').value || r.source === $('source').value) && (!$('profile').value || ($('profile').value==='website' ? !!r.website : $('profile').value==='team' ? !!r.team_size : !!r.ceo)) && (!q || [r.name,r.city,r.industry,r.product_evidence,r.ceo,r.website].join(' ').toLocaleLowerCase().includes(q))); }
+function isFundingWatcher(value){try{return new URL(value).hostname.replace(/^www\./,'')==='fundingwatcher.com';}catch{return false;}}
+function companyReference(r){return safeURL(r.website) || safeURL(r.linkedin_about_url) || (!isFundingWatcher(r.source_url) ? safeURL(r.source_url) : '');}
+function referenceLabel(r){const ref=companyReference(r);return ref ? new URL(ref).hostname.replace(/^www\./,'') : 'Not established';}
 function companyName(r){return safeURL(r.website) ? link(r.name,r.website) : document.createTextNode(r.name);}
 function teamLabel(r){const kind=r.team_size_kind || '';const label=kind.startsWith('LinkedIn')?'LinkedIn range':kind.startsWith('Company-reported')?'company-reported':kind.startsWith('YC')?'YC snapshot':'directory range';return r.team_size ? r.team_size+' ('+label+')' : 'Not available';}
 function render() {
@@ -41,21 +44,21 @@ function render() {
   if ($('view').value === 'table') {
     const table = document.createElement('table'); const caption = document.createElement('caption'); caption.textContent = 'Company directory results'; table.append(caption);
     const head = document.createElement('thead'), tr = document.createElement('tr');
-    for (const label of ['Company / official website','City','Team / size','LinkedIn-associated members','CEO / co-CEOs','Industry / classification','Source','Details']) {const th=document.createElement('th');th.scope='col';th.textContent=label;tr.append(th);}
+    for (const label of ['Company / official website','City','Team / size','LinkedIn-associated members','CEO / co-CEOs','Industry / classification','Reference','Details']) {const th=document.createElement('th');th.scope='col';th.textContent=label;tr.append(th);}
     head.append(tr);tbody=document.createElement('tbody');table.append(head,tbody);grid.append(table);
   }
   for (const r of rows.slice(state.page*state.size,(state.page+1)*state.size)) {
     if (tbody) {
       const tr=document.createElement('tr');
       const nameCell=document.createElement('td');nameCell.append(companyName(r));const website=document.createElement('div');website.className='website-caption';website.textContent=safeURL(r.website) ? new URL(r.website).hostname : 'Official website not established';nameCell.append(website);tr.append(nameCell);
-      for (const value of [r.city,teamLabel(r),r.linkedin_associated_members ? Number(r.linkedin_associated_members).toLocaleString() : 'Not available',r.ceo || r.leadership_note || (r.people_reviewed_at ? 'Not established' : 'Not researched'),r.industry,r.source]) {const td=document.createElement('td');td.textContent=value || 'Not available';tr.append(td);}
+      for (const value of [r.city,teamLabel(r),r.linkedin_associated_members ? Number(r.linkedin_associated_members).toLocaleString() : 'Not available',r.ceo || r.leadership_note || (r.people_reviewed_at ? 'Not established' : 'Not researched'),r.industry,referenceLabel(r)]) {const td=document.createElement('td');td.textContent=value || 'Not available';tr.append(td);}
       const td=document.createElement('td');const b=document.createElement('button');b.textContent='View details';b.onclick=()=>showDetails(r);td.append(b);tr.append(td);tbody.append(tr);continue;
     }
     const card = document.createElement('article'); card.className = 'company';
     const city = document.createElement('span'); city.className = 'city'; city.textContent = r.city;
     const title = document.createElement('h3'); title.append(companyName(r));
     const desc = document.createElement('p'); desc.textContent = r.industry || 'AI-related source classification'; desc.title = desc.textContent;
-    const source = document.createElement('div'); source.className = 'source'; const sourceName = document.createElement('span'); sourceName.textContent = r.source; source.append(sourceName,link('View source ↗',r.source_url));if(r.linkedin_url){source.append(link('LinkedIn About ↗',r.linkedin_about_url));source.append(link('People ↗',r.linkedin_people_url));}
+    const source = document.createElement('div'); source.className = 'source'; if(safeURL(r.website))source.append(link('Official website ↗',r.website));if(r.linkedin_url){source.append(link('LinkedIn About ↗',r.linkedin_about_url));source.append(link('People ↗',r.linkedin_people_url));}else if(!r.website && companyReference(r)){source.append(link('Company reference ↗',companyReference(r)));}
     card.append(city,title,desc);
     const website=document.createElement('div');website.className='website-caption';website.textContent=safeURL(r.website) ? new URL(r.website).hostname : 'Official website not established';card.append(website);
     const people=document.createElement('div');people.className='people-meta';
@@ -70,9 +73,9 @@ function render() {
 function showDetails(r) {
   $('detail-title').textContent = r.name; $('detail-fields').replaceChildren();
   const fields = {linkedin_about_url:'LinkedIn About',linkedin_people_url:'LinkedIn People',people_reviewed_at:'Leadership source observed',ceo_linkedin_url:'CEO LinkedIn profile',ceo_linkedin_title:'CEO LinkedIn title',ceo_linkedin_source:'People role source',ceo_name_source:'Full-name source',ceo:'CEO / co-CEOs',ceo_role:'CEO title',ceo_source:'CEO source',ceo_observed_at:'CEO observed date',team_size:'Company-wide people / size',linkedin_company_size:'LinkedIn company size range',linkedin_associated_members:'LinkedIn-associated members (not verified employees)',linkedin_profile_source:'LinkedIn profile source',linkedin_profile_observed_at:'LinkedIn profile observed date',leadership_note:'Leadership',leadership_source:'Leadership source',leadership_observed_at:'Leadership observed date',team_size_kind:'Team-size definition',team_size_source:'Team-size source',team_size_observed_at:'Team size observed date',linkedin_search_size_band:'LinkedIn search-size filter (not measured headcount)',linkedin_search_size_source:'Size-filter evidence',website_source:'Website source',website_observed_at:'Website observed date',website_match:'Website matching basis',city:'City',industry:'Industry / source classification',source:'Source',founded:'Founded',status:'Status',funding_usd:'Funding reported (USD)',last_round_type:'Last round type',last_round_date:'Last round date',snapshot_date:'Source snapshot',screening_status:'Screening notes',matching_evidence:'Matching notes',product_evidence:'Product evidence',website:'Website',linkedin_url:'LinkedIn',source_url:'Source record',product_evidence_url:'Product evidence source'};
-  for(const key of ['screening_status','matching_evidence','website_match','linkedin_search_size_band','linkedin_search_size_source'])delete fields[key];
+  for(const key of ['source','screening_status','matching_evidence','website_match','linkedin_search_size_band','linkedin_search_size_source'])delete fields[key];
   for (const [key,label] of Object.entries(fields)) {
-    if (!r[key]) continue;
+    if (!r[key] || isFundingWatcher(r[key])) continue;
     const dt=document.createElement('dt'),dd=document.createElement('dd');dt.textContent=label;
     if (['website','linkedin_url','source_url','product_evidence_url','ceo_source','team_size_source','linkedin_search_size_source','website_source','linkedin_profile_source','leadership_source','linkedin_about_url','linkedin_people_url','ceo_linkedin_url','ceo_linkedin_source','ceo_name_source'].includes(key) && safeURL(r[key])) dd.append(link(r[key],r[key])); else dd.textContent=r[key];
     $('detail-fields').append(dt,dd);

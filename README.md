@@ -26,7 +26,7 @@ The HTML contains a snapshot of the data. Editing files under `data/` alone will
 
 ## Company websites and people
 
-Company names link to source-listed official websites when established. Unknown website names stay as plain text; LinkedIn and record sources remain separately labeled.
+Company names link to source-listed official websites when established. Visitor-facing company references prioritize the company website, then LinkedIn About; FundingWatcher links and labels are omitted from company cards, tables, and details. Original dataset provenance remains in downloadable records and credits. Unknown website names stay as plain text; LinkedIn and record sources remain separately labeled.
 
 Current partial coverage: **2,685 websites**, **2,554 reported team sizes/headcount bands**, and **62 researched CEO/co-CEO records**. Use the **Profile data** filter to browse these records. Names, company websites, and CEO names are searchable. Both cards and tables show team and CEO annotations; company details include evidence URLs and observed dates.
 
